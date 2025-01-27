@@ -1,0 +1,33 @@
+﻿@model IEnumerable<WebApp.Models.KategorijaHrane>
+
+@{
+    ViewData["Title"] = "Kategorije Hrane";
+}
+
+<h1>Kategorije Hrane</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Naziv</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var kategorija in Model)
+        {
+            <tr>
+                <td>@kategorija.IdkategorijaHrane</td>
+                <td>@kategorija.Naziv</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@kategorija.IdkategorijaHrane" class="btn btn-info">Details</a>
+                    <a asp-action="Update" asp-route-id="@kategorija.IdkategorijaHrane" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@kategorija.IdkategorijaHrane" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-primary">Stvori novu</a>

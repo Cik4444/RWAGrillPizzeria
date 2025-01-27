@@ -1,0 +1,32 @@
+﻿@model WebApp.ViewModels.KategorijaHraneVM
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Brisanje</h1>
+
+<h3>Jeste li sigurni da želite ovo obrisati?</h3>
+<div>
+    <h4>KategorijaHraneVM</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Naziv)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Naziv)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Opis)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Opis)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="submit" value="Obriši" class="btn btn-danger" /> |
+        <a asp-action="Index">Povratak na listu kategorija</a>
+    </form>
+</div>

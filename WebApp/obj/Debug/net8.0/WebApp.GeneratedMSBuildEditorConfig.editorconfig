@@ -1,0 +1,191 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebApp
+build_property.RootNamespace = WebApp
+build_property.ProjectDir = C:\Users\Tin\Desktop\GrillPizzeriaTinCik\WebApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Tin\Desktop\GrillPizzeriaTinCik\WebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Alergen/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxlcmdlblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Alergen/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxlcmdlblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Alergen/Read.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxlcmdlblxSZWFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Alergen/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxlcmdlblxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/HranaAlergen/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHJhbmFBbGVyZ2VuXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/HranaAlergen/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHJhbmFBbGVyZ2VuXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/HranaAlergen/Read.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHJhbmFBbGVyZ2VuXFJlYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/HranaAlergen/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHJhbmFBbGVyZ2VuXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Hrana/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHJhbmFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Hrana/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHJhbmFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Hrana/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHJhbmFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Hrana/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHJhbmFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Hrana/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSHJhbmFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/KategorijaHrane/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlqYUhyYW5lXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/KategorijaHrane/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlqYUhyYW5lXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/KategorijaHrane/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlqYUhyYW5lXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/KategorijaHrane/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlqYUhyYW5lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/KategorijaHrane/Read.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlqYUhyYW5lXFJlYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/KategorijaHrane/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlqYUhyYW5lXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Korisnik/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Korisnik/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Korisnik/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Korisnik/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Korisnik/Read.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtcUmVhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Korisnik/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Korisnik/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/NarudzbaHrana/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFydWR6YmFIcmFuYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/NarudzbaHrana/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFydWR6YmFIcmFuYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/NarudzbaHrana/Read.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFydWR6YmFIcmFuYVxSZWFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/NarudzbaHrana/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFydWR6YmFIcmFuYVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Narudzba/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFydWR6YmFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Narudzba/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFydWR6YmFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Narudzba/Read.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFydWR6YmFcUmVhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Narudzba/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFydWR6YmFcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tin/Desktop/GrillPizzeriaTinCik/WebApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7882z672yd

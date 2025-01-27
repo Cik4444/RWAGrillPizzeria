@@ -1,0 +1,63 @@
+﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@if (IsSectionDefined("Scripts"))
+{
+    @RenderSection("Scripts")
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Pizzeria & Grill</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css" asp-append-version="true" />
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">Pizzeria & Grill</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Početna</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="KategorijaHrane" asp-action="Index">Kategorije</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Hrana" asp-action="Index">Jelovnik</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        @if (User.Identity?.IsAuthenticated ?? false)
+                        {
+                            <a class="btn btn-outline-light me-2" asp-controller="Korisnik" asp-action="Profile">Profil</a>
+                            <form asp-controller="Korisnik" asp-action="Logout" method="post">
+                                <button type="submit" class="btn btn-outline-danger">Odjava</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <a class="btn btn-outline-light me-2" asp-controller="Korisnik" asp-action="Login">Prijava</a>
+                        }
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main" class="flex-grow-1 container mt-4">
+        @RenderBody()
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        &copy; 2025 Pizzeria & Grill - <a class="text-warning" asp-controller="Home" asp-action="Privacy">Politika privatnosti</a>
+    </footer>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

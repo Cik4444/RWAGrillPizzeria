@@ -1,0 +1,100 @@
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<WebApp.ViewModels.HranaVM>
+
+@{
+    ViewData["Title"] = "Hrana";
+}
+
+<h1>Hrana</h1>
+
+<form method="get">
+    <div class="form-group">
+        <label for="search">Pretraži:</label>
+        <input type="text" id="search" name="search" value="@ViewBag.Search" class="form-control" placeholder="Pretraži...">
+    </div>
+    <div class="form-group">
+        <label for="filter">Filtriraj po kategoriji:</label>
+        <select id="filter" name="filter" class="form-control">
+            <option value="">Sve kategorije</option>
+            @foreach (var category in ViewBag.Categories as IEnumerable<WebApp.Models.KategorijaHrane>)
+            {
+                if (ViewData["Filter"]?.ToString() == category.IdkategorijaHrane.ToString())
+                {
+                    <option value="@category.IdkategorijaHrane" selected>@category.Naziv</option>
+                }
+                else
+                {
+                    <option value="@category.IdkategorijaHrane">@category.Naziv</option>
+                }
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="pageSize">Broj stavki po stranici:</label>
+        <select id="pageSize" name="pageSize" class="form-control" onchange="this.form.submit()">
+            
+            @{
+                var pageSizes = new[] { 5, 10, 20 }; 
+                var selectedPageSize = ViewBag.PageSize; 
+            }
+
+            @foreach (var size in pageSizes)
+            {
+                if (size == selectedPageSize)
+                {
+                    <option value="@size" selected="selected">@size</option>
+                }
+                else
+                {
+                    <option value="@size">@size</option>
+                }
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Pretraži</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Naslov</th>
+            <th>Opis</th>
+            <th>Cijena</th>
+            <th>Kategorija</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Naslov</td>
+                <td>@item.Opis</td>
+                <td>@item.Cijena</td>
+                <td>@item.KategorijaHrane?.Naziv</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Idhrana" class="btn btn-info">Details</a>
+                    <a asp-action="Update" asp-route-id="@item.Idhrana" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@item.Idhrana" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="pagination-container mt-4">
+    @Html.PagedListPager(
+            Model,
+            page => Url.Action("Index", new { page, search = ViewBag.Search, filter = ViewBag.Filter, pageSize = ViewBag.PageSize }),
+            new PagedListRenderOptions
+    {
+        UlElementClasses = new[] { "pagination", "justify-content-center" }, 
+        LiElementClasses = new[] { "page-item" }, 
+        PageClasses = new[] { "page-link" } 
+    }
+            )
+</div>
+
+<a asp-action="Create" class="btn btn-primary">Dodaj novu vrstu hrane</a>

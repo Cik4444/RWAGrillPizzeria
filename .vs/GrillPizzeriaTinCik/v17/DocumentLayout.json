@@ -1,0 +1,1393 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\controllers\\kategorijahranecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\kategorijahranecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\kategorijahrane\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\kategorijahrane\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\kategorijahrane\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\kategorijahrane\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\tin\\desktop\\grillpizzeriatincik\\webapp\\views\\kategorijahrane\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\kategorijahrane\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\viewmodels\\kategorijahranevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\kategorijahranevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\controllers\\hranacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\hranacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\kategorijahrane\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\kategorijahrane\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\tin\\desktop\\grillpizzeriatincik\\webapp\\views\\hrana\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\hrana\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\kategorijahrane\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\kategorijahrane\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\hrana\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\hrana\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\tin\\desktop\\grillpizzeriatincik\\webapp\\views\\hrana\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\hrana\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\tin\\desktop\\grillpizzeriatincik\\webapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\viewmodels\\hranavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\hranavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\tin\\desktop\\grillpizzeriatincik\\webapp\\views\\korisnik\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\korisnik\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\tin\\desktop\\grillpizzeriatincik\\webapp\\controllers\\korisnikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\korisnikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\korisnik\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\korisnik\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\viewmodels\\korisnikvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\korisnikvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\tin\\desktop\\grillpizzeriatincik\\webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\tin\\desktop\\grillpizzeriatincik\\webapp\\security\\jwttokenprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\security\\jwttokenprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\tin\\desktop\\grillpizzeriatincik\\webapp\\security\\passwordhashprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\security\\passwordhashprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\tin\\desktop\\grillpizzeriatincik\\webapp\\views\\korisnik\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\korisnik\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\tin\\desktop\\grillpizzeriatincik\\webapp\\views\\korisnik\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\korisnik\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\security\\passwordhashprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\security\\passwordhashprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\security\\jwttokenprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\security\\jwttokenprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\hrana\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\hrana\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\tin\\desktop\\grillpizzeriatincik\\webapp\\views\\hrana\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\hrana\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\models\\hrana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\hrana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\kategorijahrane\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\kategorijahrane\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\controllers\\korisnikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\korisnikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\controllers\\hranacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\hranacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\viewmodels\\narudzbavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\narudzbavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\viewmodels\\hranaalergenvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\hranaalergenvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\viewmodels\\narudzbahranavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\narudzbahranavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\viewmodels\\alergenvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\alergenvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\wwwroot\\js\\logs.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\js\\logs.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\wwwroot\\html\\logs.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\html\\logs.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\wwwroot\\css\\logs.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\css\\logs.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\models\\rwagrillcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\rwagrillcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\dto\\korisnikdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\korisnikdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\wwwroot\\js\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\js\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\models\\narudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\narudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\models\\hranaalergen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\hranaalergen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\models\\kategorijahrane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\kategorijahrane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\wwwroot\\html\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\html\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\wwwroot\\html\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\html\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\narudzbahrana\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\narudzbahrana\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\narudzba\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\narudzba\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\narudzba\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\narudzba\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\narudzba\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\narudzba\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\narudzba\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\narudzba\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\narudzbahrana\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\narudzbahrana\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\narudzbahrana\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\narudzbahrana\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\narudzbahrana\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\narudzbahrana\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\korisnik\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\korisnik\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\korisnik\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\korisnik\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\korisnik\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\korisnik\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\hranaalergen\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\hranaalergen\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\hranaalergen\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\hranaalergen\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\hranaalergen\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\hranaalergen\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\hranaalergen\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\hranaalergen\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\alergen\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\alergen\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\alergen\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\alergen\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\alergen\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\alergen\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\views\\alergen\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\alergen\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\dto\\narudzbahranadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\narudzbahranadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\dto\\narudzbadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\narudzbadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\dto\\kategorijahranedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\kategorijahranedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\dto\\hranaalergendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\hranaalergendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\dto\\alergendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\alergendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\dto\\hranadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\hranadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\models\\narudzbahrana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\narudzbahrana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\webapi\\models\\alergen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\alergen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\KategorijaHrane\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\KategorijaHrane\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\KategorijaHrane\\Details.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\KategorijaHrane\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T15:37:07.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KategorijaHraneController.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Controllers\\KategorijaHraneController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\KategorijaHraneController.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Controllers\\KategorijaHraneController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\KategorijaHraneController.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAuwJkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T23:27:54.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WebApp\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAABUAAAAAAAAAAAAkwF4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-27T13:26:31.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\KategorijaHrane\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\KategorijaHrane\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\KategorijaHrane\\Index.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\KategorijaHrane\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T23:38:43.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Hrana\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Hrana\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Hrana\\Details.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Hrana\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T12:56:48.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Hrana\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Hrana\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Hrana\\Create.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Hrana\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T16:50:55.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\KategorijaHrane\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\KategorijaHrane\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\KategorijaHrane\\Create.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\KategorijaHrane\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T16:56:06.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\KategorijaHrane\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\KategorijaHrane\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\KategorijaHrane\\Delete.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\KategorijaHrane\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T16:57:28.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\KategorijaHrane\\Update.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\KategorijaHrane\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\KategorijaHrane\\Update.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\KategorijaHrane\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T16:56:49.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HranaController.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Controllers\\HranaController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\HranaController.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Controllers\\HranaController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\HranaController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAcwCIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T17:50:48.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KategorijaHraneVM.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\ViewModels\\KategorijaHraneVM.cs",
+              "RelativeDocumentMoniker": "WebApp\\ViewModels\\KategorijaHraneVM.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\ViewModels\\KategorijaHraneVM.cs",
+              "RelativeToolTip": "WebApp\\ViewModels\\KategorijaHraneVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:22:52.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Hrana\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Hrana\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Hrana\\Index.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Hrana\\Index.cshtml",
+              "ViewState": "AQIAADQAAAAAAAAAAAAuwFwAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T00:12:33.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HranaVM.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\ViewModels\\HranaVM.cs",
+              "RelativeDocumentMoniker": "WebApp\\ViewModels\\HranaVM.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\ViewModels\\HranaVM.cs",
+              "RelativeToolTip": "WebApp\\ViewModels\\HranaVM.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:20:05.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "WebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Program.cs",
+              "RelativeToolTip": "WebApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:37:52.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "JwtTokenProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Security\\JwtTokenProvider.cs",
+              "RelativeDocumentMoniker": "WebApi\\Security\\JwtTokenProvider.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Security\\JwtTokenProvider.cs",
+              "RelativeToolTip": "WebApi\\Security\\JwtTokenProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:32:25.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Korisnik\\Profile.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Korisnik\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Korisnik\\Profile.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Korisnik\\Profile.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T21:12:25.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T23:40:41.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Hrana.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Models\\Hrana.cs",
+              "RelativeDocumentMoniker": "WebApi\\Models\\Hrana.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Models\\Hrana.cs",
+              "RelativeToolTip": "WebApi\\Models\\Hrana.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:28:33.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "KorisnikController.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Controllers\\KorisnikController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\KorisnikController.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Controllers\\KorisnikController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\KorisnikController.cs",
+              "ViewState": "AQIAAAsBAAAAAAAAAAAcwB0BAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T14:41:43.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Korisnik\\Update.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Korisnik\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Korisnik\\Update.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Korisnik\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T16:59:38.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "JwtTokenProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Security\\JwtTokenProvider.cs",
+              "RelativeDocumentMoniker": "WebApp\\Security\\JwtTokenProvider.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Security\\JwtTokenProvider.cs",
+              "RelativeToolTip": "WebApp\\Security\\JwtTokenProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T14:47:24.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PasswordHashProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Security\\PasswordHashProvider.cs",
+              "RelativeDocumentMoniker": "WebApp\\Security\\PasswordHashProvider.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Security\\PasswordHashProvider.cs",
+              "RelativeToolTip": "WebApp\\Security\\PasswordHashProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T14:47:42.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "KorisnikVM.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\ViewModels\\KorisnikVM.cs",
+              "RelativeDocumentMoniker": "WebApp\\ViewModels\\KorisnikVM.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\ViewModels\\KorisnikVM.cs",
+              "RelativeToolTip": "WebApp\\ViewModels\\KorisnikVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:23:28.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T15:59:50.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Korisnik\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Korisnik\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Korisnik\\Login.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Korisnik\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T14:50:04.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Korisnik\\Register.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Korisnik\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Korisnik\\Register.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Korisnik\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T14:53:37.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PasswordHashProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Security\\PasswordHashProvider.cs",
+              "RelativeDocumentMoniker": "WebApi\\Security\\PasswordHashProvider.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Security\\PasswordHashProvider.cs",
+              "RelativeToolTip": "WebApi\\Security\\PasswordHashProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:31:58.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Hrana\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Hrana\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Hrana\\Delete.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Hrana\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T16:51:36.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "NarudzbaVM.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\ViewModels\\NarudzbaVM.cs",
+              "RelativeDocumentMoniker": "WebApp\\ViewModels\\NarudzbaVM.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\ViewModels\\NarudzbaVM.cs",
+              "RelativeToolTip": "WebApp\\ViewModels\\NarudzbaVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:24:03.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Hrana\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Hrana\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Hrana\\Edit.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Hrana\\Edit.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T11:21:11.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HranaAlergenVM.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\ViewModels\\HranaAlergenVM.cs",
+              "RelativeDocumentMoniker": "WebApp\\ViewModels\\HranaAlergenVM.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\ViewModels\\HranaAlergenVM.cs",
+              "RelativeToolTip": "WebApp\\ViewModels\\HranaAlergenVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:22:15.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Read.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\KategorijaHrane\\Read.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\KategorijaHrane\\Read.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\KategorijaHrane\\Read.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\KategorijaHrane\\Read.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T16:58:05.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "NarudzbaHranaVM.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\ViewModels\\NarudzbaHranaVM.cs",
+              "RelativeDocumentMoniker": "WebApp\\ViewModels\\NarudzbaHranaVM.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\ViewModels\\NarudzbaHranaVM.cs",
+              "RelativeToolTip": "WebApp\\ViewModels\\NarudzbaHranaVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:24:44.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LogController.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Controllers\\LogController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\LogController.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Controllers\\LogController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\LogController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAYwBoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T20:08:57.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "KorisnikController.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Controllers\\KorisnikController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\KorisnikController.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Controllers\\KorisnikController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\KorisnikController.cs",
+              "ViewState": "AQIAAKYAAAAAAAAAAAAwwLQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T19:26:30.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "WebApp",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\WebApp.csproj",
+              "RelativeDocumentMoniker": "WebApp\\WebApp.csproj",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\WebApp.csproj",
+              "RelativeToolTip": "WebApp\\WebApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-23T16:52:47.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HranaController.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Controllers\\HranaController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\HranaController.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Controllers\\HranaController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\HranaController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwC8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T14:25:07.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AlergenVM.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\ViewModels\\AlergenVM.cs",
+              "RelativeDocumentMoniker": "WebApp\\ViewModels\\AlergenVM.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\ViewModels\\AlergenVM.cs",
+              "RelativeToolTip": "WebApp\\ViewModels\\AlergenVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:21:38.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T01:33:18.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "KorisnikDto.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Dto\\KorisnikDto.cs",
+              "RelativeDocumentMoniker": "WebApi\\Dto\\KorisnikDto.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Dto\\KorisnikDto.cs",
+              "RelativeToolTip": "WebApi\\Dto\\KorisnikDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:47:29.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Log.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Models\\Log.cs",
+              "RelativeDocumentMoniker": "WebApi\\Models\\Log.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Models\\Log.cs",
+              "RelativeToolTip": "WebApi\\Models\\Log.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T20:05:02.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "logs.html",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\html\\logs.html",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\html\\logs.html",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\html\\logs.html",
+              "RelativeToolTip": "WebApi\\wwwroot\\html\\logs.html",
+              "ViewState": "AQIAAA8AAAAgMzMzMzMrwCoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-23T21:12:18.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "logs.js",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\js\\logs.js",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\js\\logs.js",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\js\\logs.js",
+              "RelativeToolTip": "WebApi\\wwwroot\\js\\logs.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-23T21:13:35.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Korisnik.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Models\\Korisnik.cs",
+              "RelativeDocumentMoniker": "WebApi\\Models\\Korisnik.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Models\\Korisnik.cs",
+              "RelativeToolTip": "WebApi\\Models\\Korisnik.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:55:29.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "login.js",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\js\\login.js",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\js\\login.js",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\js\\login.js",
+              "RelativeToolTip": "WebApi\\wwwroot\\js\\login.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-21T20:03:58.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "register.js",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\js\\register.js",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\js\\register.js",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\js\\register.js",
+              "RelativeToolTip": "WebApi\\wwwroot\\js\\register.js",
+              "ViewState": "AQIAABoAAAAAAAAAAAAswC0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-21T21:13:52.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RwagrillContext.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Models\\RwagrillContext.cs",
+              "RelativeDocumentMoniker": "WebApi\\Models\\RwagrillContext.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Models\\RwagrillContext.cs",
+              "RelativeToolTip": "WebApi\\Models\\RwagrillContext.cs",
+              "ViewState": "AQIAAAwAAAAwMzMzMzM/wAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T17:35:57.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "logs.css",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\css\\logs.css",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\css\\logs.css",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\css\\logs.css",
+              "RelativeToolTip": "WebApi\\wwwroot\\css\\logs.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-23T21:11:17.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "KategorijaHrane.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Models\\KategorijaHrane.cs",
+              "RelativeDocumentMoniker": "WebApi\\Models\\KategorijaHrane.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Models\\KategorijaHrane.cs",
+              "RelativeToolTip": "WebApi\\Models\\KategorijaHrane.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:44:46.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Narudzba.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Models\\Narudzba.cs",
+              "RelativeDocumentMoniker": "WebApi\\Models\\Narudzba.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Models\\Narudzba.cs",
+              "RelativeToolTip": "WebApi\\Models\\Narudzba.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAcwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:59:58.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\NarudzbaHrana\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\NarudzbaHrana\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\NarudzbaHrana\\Create.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\NarudzbaHrana\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T17:02:07.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Dto\\LoginDto.cs",
+              "RelativeDocumentMoniker": "WebApi\\Dto\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Dto\\LoginDto.cs",
+              "RelativeToolTip": "WebApi\\Dto\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:34:36.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "HranaAlergen.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Models\\HranaAlergen.cs",
+              "RelativeDocumentMoniker": "WebApi\\Models\\HranaAlergen.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Models\\HranaAlergen.cs",
+              "RelativeToolTip": "WebApi\\Models\\HranaAlergen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:45:57.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Read.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Narudzba\\Read.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Narudzba\\Read.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Narudzba\\Read.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Narudzba\\Read.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T17:07:05.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "login.html",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\html\\login.html",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\html\\login.html",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\html\\login.html",
+              "RelativeToolTip": "WebApi\\wwwroot\\html\\login.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-21T19:48:30.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "register.html",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\html\\register.html",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\html\\register.html",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\html\\register.html",
+              "RelativeToolTip": "WebApi\\wwwroot\\html\\register.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-21T21:13:32.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "login.css",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\css\\login.css",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "WebApi\\wwwroot\\css\\login.css",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-21T19:53:55.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Read.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\NarudzbaHrana\\Read.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\NarudzbaHrana\\Read.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\NarudzbaHrana\\Read.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\NarudzbaHrana\\Read.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T17:04:11.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\NarudzbaHrana\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\NarudzbaHrana\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\NarudzbaHrana\\Delete.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\NarudzbaHrana\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T17:02:41.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\appsettings.json",
+              "RelativeToolTip": "WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-15T01:34:53.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\NarudzbaHrana\\Update.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\NarudzbaHrana\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\NarudzbaHrana\\Update.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\NarudzbaHrana\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T17:03:13.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Narudzba\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Narudzba\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Narudzba\\Create.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Narudzba\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T17:04:59.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Narudzba\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Narudzba\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Narudzba\\Delete.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Narudzba\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T17:05:32.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Narudzba\\Update.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Narudzba\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Narudzba\\Update.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Narudzba\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T17:06:11.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Read.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Korisnik\\Read.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Korisnik\\Read.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Korisnik\\Read.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Korisnik\\Read.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T17:01:12.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Korisnik\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Korisnik\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Korisnik\\Delete.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Korisnik\\Delete.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAwvRIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T17:00:13.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Korisnik\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Korisnik\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Korisnik\\Create.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Korisnik\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T16:58:53.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Read.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\HranaAlergen\\Read.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\HranaAlergen\\Read.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\HranaAlergen\\Read.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\HranaAlergen\\Read.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T16:55:03.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\HranaAlergen\\Update.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\HranaAlergen\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\HranaAlergen\\Update.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\HranaAlergen\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T16:53:59.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\HranaAlergen\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\HranaAlergen\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\HranaAlergen\\Delete.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\HranaAlergen\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T16:53:26.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\HranaAlergen\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\HranaAlergen\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\HranaAlergen\\Create.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\HranaAlergen\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T16:52:49.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Alergen\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Alergen\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Alergen\\Delete.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Alergen\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T16:46:09.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Alergen\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Alergen\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Alergen\\Create.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Alergen\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T16:45:08.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Alergen\\Update.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Alergen\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Alergen\\Update.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Alergen\\Update.cshtml",
+              "ViewState": "AQIAAAIAAAAwMzMzMzMbwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T16:44:24.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Read.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Alergen\\Read.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Alergen\\Read.cshtml",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\Views\\Alergen\\Read.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Alergen\\Read.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T16:41:48.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApp\\appsettings.json",
+              "RelativeToolTip": "WebApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-21T16:34:51.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "NarudzbaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Dto\\NarudzbaDto.cs",
+              "RelativeDocumentMoniker": "WebApi\\Dto\\NarudzbaDto.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Dto\\NarudzbaDto.cs",
+              "RelativeToolTip": "WebApi\\Dto\\NarudzbaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T01:18:32.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "NarudzbaHranaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Dto\\NarudzbaHranaDto.cs",
+              "RelativeDocumentMoniker": "WebApi\\Dto\\NarudzbaHranaDto.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Dto\\NarudzbaHranaDto.cs",
+              "RelativeToolTip": "WebApi\\Dto\\NarudzbaHranaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T01:19:29.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "KategorijaHraneDto.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Dto\\KategorijaHraneDto.cs",
+              "RelativeDocumentMoniker": "WebApi\\Dto\\KategorijaHraneDto.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Dto\\KategorijaHraneDto.cs",
+              "RelativeToolTip": "WebApi\\Dto\\KategorijaHraneDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:46:39.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "HranaAlergenDto.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Dto\\HranaAlergenDto.cs",
+              "RelativeDocumentMoniker": "WebApi\\Dto\\HranaAlergenDto.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Dto\\HranaAlergenDto.cs",
+              "RelativeToolTip": "WebApi\\Dto\\HranaAlergenDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:45:55.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "NarudzbaHrana.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Models\\NarudzbaHrana.cs",
+              "RelativeDocumentMoniker": "WebApi\\Models\\NarudzbaHrana.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Models\\NarudzbaHrana.cs",
+              "RelativeToolTip": "WebApi\\Models\\NarudzbaHrana.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T01:14:10.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "AlergenDto.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Dto\\AlergenDto.cs",
+              "RelativeDocumentMoniker": "WebApi\\Dto\\AlergenDto.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Dto\\AlergenDto.cs",
+              "RelativeToolTip": "WebApi\\Dto\\AlergenDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:42:44.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "HranaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Dto\\HranaDto.cs",
+              "RelativeDocumentMoniker": "WebApi\\Dto\\HranaDto.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Dto\\HranaDto.cs",
+              "RelativeToolTip": "WebApi\\Dto\\HranaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:44:16.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Alergen.cs",
+              "DocumentMoniker": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Models\\Alergen.cs",
+              "RelativeDocumentMoniker": "WebApi\\Models\\Alergen.cs",
+              "ToolTip": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\Models\\Alergen.cs",
+              "RelativeToolTip": "WebApi\\Models\\Alergen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:28:23.001Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

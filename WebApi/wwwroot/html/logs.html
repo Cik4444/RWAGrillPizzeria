@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log Viewer</title>
+    <link rel="stylesheet" href="/css/logs.css">
+</head>
+<body>
+    <header>
+        <h1>Log Viewer</h1>
+    </header>
+
+    <div class="container">
+        <div class="filter">
+            <label for="logCount">Number of logs to display:</label>
+            <select id="logCount">
+                <option value="10" selected>10</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+            </select>
+            <button id="fetchLogs">Show Logs</button>
+        </div>
+
+        <table id="logTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Timestamp</th>
+                    <th>Level</th>
+                    <th>Message</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+        <div class="logout">
+            <button id="logout">Logout</button>
+        </div>
+    </div>
+
+    <script src="/js/logs.js"></script>
+</body>
+</html>

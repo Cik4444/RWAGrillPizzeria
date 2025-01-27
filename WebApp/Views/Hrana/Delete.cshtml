@@ -1,0 +1,39 @@
+﻿@model WebApp.ViewModels.HranaVM
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Brisanje</h1>
+
+<h3>Jeste li sigurni da zelite ovo obrisati?</h3>
+<div>
+    <h4>Hrana</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Naslov)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Naslov)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Opis)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Opis)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Cijena)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cijena)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="Idhrana" />
+        <input type="submit" value="Obriši" class="btn btn-danger" /> |
+        <a asp-action="Index">Nazad na izbornik hrane</a>
+    </form>
+</div>

@@ -1,0 +1,43 @@
+﻿@model WebApp.ViewModels.HranaVM
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalji</h1>
+
+<div>
+    <h4>Hrana Details</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Naslov
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Naslov
+        </dd>
+        <dt class="col-sm-2">
+            Opis
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Opis
+        </dd>
+        <dt class="col-sm-2">
+            Cijena
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Cijena
+        </dd>
+        <dt class="col-sm-2">
+            Kategorija
+        </dt>
+        <dd class="col-sm-10">
+            @Model.KategorijaHrane?.Naziv
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Update" asp-route-id="@Model.Idhrana">Edit</a> |
+    <a asp-action="Index">Povratak na izbornik hrane</a>
+</div>
