@@ -1,0 +1,34 @@
+﻿@model WebApp.ViewModels.NarudzbaVM
+
+@{
+    ViewData["Title"] = "Detalji Narudžbe";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center">Detalji Narudžbe</h2>
+    <hr />
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h4>Datum: @Model.Datum.ToString("dd.MM.yyyy HH:mm")</h4>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Korisnik:</dt>
+                <dd class="col-sm-9">@Model.Korisnik?.Ime @Model.Korisnik?.Prezime</dd>
+
+                <dt class="col-sm-3">Jela u Narudžbi:</dt>
+                <dd class="col-sm-9">
+                    <ul>
+                        @foreach (var item in Model.NarudzbaHranas)
+                        {
+                            <li>@item.Hrana?.Naslov - Količina: @item.Kolicina</li>
+                        }
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+        <div class="card-footer text-end">
+            <a asp-action="Index" class="btn btn-secondary">Povratak na Popis</a>
+        </div>
+    </div>
+</div>

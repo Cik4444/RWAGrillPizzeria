@@ -1,4 +1,5 @@
-﻿using WebApp.Models;
+﻿using System.ComponentModel.DataAnnotations;
+using WebApp.Models;
 
 namespace WebApp.ViewModels
 {
@@ -6,12 +7,15 @@ namespace WebApp.ViewModels
     {
         public int Idkorisnik { get; set; }
 
-        public string Ime { get; set; } = null!;
+        [Required(ErrorMessage = "Ime je obavezno.")]
+        public string Ime { get; set; }
 
-        public string Prezime { get; set; } = null!;
+        [Required(ErrorMessage = "Prezime je obavezno.")]
+        public string Prezime { get; set; }
 
-        public string Email { get; set; } = null!;
-
+        [Required(ErrorMessage = "Email je obavezan.")]
+        [EmailAddress(ErrorMessage = "Neispravan email format.")]
+        public string Email { get; set; }
         public string? Lozinka { get; set; }
 
         public virtual ICollection<Narudzba> Narudzbas { get; } = new List<Narudzba>();

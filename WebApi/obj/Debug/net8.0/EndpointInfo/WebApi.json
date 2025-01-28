@@ -1,0 +1,797 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "WebApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Hrana": {
+      "post": {
+        "tags": [
+          "Hrana"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HranaDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HranaDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HranaDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Hrana"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HranaDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HranaDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HranaDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Hrana/{id}": {
+      "get": {
+        "tags": [
+          "Hrana"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/HranaDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HranaDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HranaDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Hrana"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HranaDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HranaDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HranaDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Hrana"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Korisnik": {
+      "post": {
+        "tags": [
+          "Korisnik"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KorisnikDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KorisnikDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/KorisnikDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Korisnik"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Korisnik"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Korisnik"
+                }
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Korisnik"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/KorisnikDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/KorisnikDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/KorisnikDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Korisnik/{id}": {
+      "get": {
+        "tags": [
+          "Korisnik"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/KorisnikDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KorisnikDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KorisnikDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Korisnik"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KorisnikDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KorisnikDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/KorisnikDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Korisnik"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Korisnik/login": {
+      "post": {
+        "tags": [
+          "Korisnik"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Korisnik/register": {
+      "post": {
+        "tags": [
+          "Korisnik"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KorisnikDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KorisnikDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/KorisnikDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Korisnik/getSalt": {
+      "get": {
+        "tags": [
+          "Korisnik"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/logs/get/{n}": {
+      "get": {
+        "tags": [
+          "Log"
+        ],
+        "parameters": [
+          {
+            "name": "n",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/logs/count": {
+      "get": {
+        "tags": [
+          "Log"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Alergen": {
+        "type": "object",
+        "properties": {
+          "idalergen": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "naziv": {
+            "type": "string",
+            "nullable": true
+          },
+          "hranaAlergens": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HranaAlergen"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Hrana": {
+        "type": "object",
+        "properties": {
+          "idhrana": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "naslov": {
+            "type": "string",
+            "nullable": true
+          },
+          "opis": {
+            "type": "string",
+            "nullable": true
+          },
+          "cijena": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "kategorijaHraneId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "hranaAlergens": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HranaAlergen"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "kategorijaHrane": {
+            "$ref": "#/components/schemas/KategorijaHrane"
+          },
+          "narudzbaHranas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NarudzbaHrana"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "HranaAlergen": {
+        "type": "object",
+        "properties": {
+          "idhranaAlergen": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hranaId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "alergenId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "alergen": {
+            "$ref": "#/components/schemas/Alergen"
+          },
+          "hrana": {
+            "$ref": "#/components/schemas/Hrana"
+          }
+        },
+        "additionalProperties": false
+      },
+      "HranaDto": {
+        "type": "object",
+        "properties": {
+          "naslov": {
+            "type": "string",
+            "nullable": true
+          },
+          "opis": {
+            "type": "string",
+            "nullable": true
+          },
+          "cijena": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "hranaAlergens": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HranaAlergen"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "kategorijaHrane": {
+            "$ref": "#/components/schemas/KategorijaHrane"
+          },
+          "narudzbaHranas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NarudzbaHrana"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "KategorijaHrane": {
+        "type": "object",
+        "properties": {
+          "idkategorijaHrane": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "naziv": {
+            "type": "string",
+            "nullable": true
+          },
+          "opis": {
+            "type": "string",
+            "nullable": true
+          },
+          "hranas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Hrana"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Korisnik": {
+        "type": "object",
+        "properties": {
+          "idkorisnik": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ime": {
+            "type": "string",
+            "nullable": true
+          },
+          "prezime": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "lozinka": {
+            "type": "string",
+            "nullable": true
+          },
+          "salt": {
+            "type": "string",
+            "nullable": true
+          },
+          "narudzbas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Narudzba"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "KorisnikDto": {
+        "type": "object",
+        "properties": {
+          "ime": {
+            "type": "string",
+            "nullable": true
+          },
+          "prezime": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "lozinka": {
+            "type": "string",
+            "nullable": true
+          },
+          "narudzbas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NarudzbaDto"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginDto": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "lozinka": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Narudzba": {
+        "type": "object",
+        "properties": {
+          "idnarudzba": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "korisnikId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "datum": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "korisnik": {
+            "$ref": "#/components/schemas/Korisnik"
+          },
+          "narudzbaHranas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NarudzbaHrana"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NarudzbaDto": {
+        "type": "object",
+        "properties": {
+          "datum": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "korisnik": {
+            "$ref": "#/components/schemas/Korisnik"
+          },
+          "narudzbaHranas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NarudzbaHrana"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NarudzbaHrana": {
+        "type": "object",
+        "properties": {
+          "idnarudzbaHrana": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "narudzbaId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "hranaId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "kolicina": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hrana": {
+            "$ref": "#/components/schemas/Hrana"
+          },
+          "narudzba": {
+            "$ref": "#/components/schemas/Narudzba"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

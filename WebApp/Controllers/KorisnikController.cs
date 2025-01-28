@@ -14,7 +14,7 @@ namespace WebApp.Controllers
     public class KorisnikController : Controller
     {
         private readonly RwagrillContext _context;
-        private const string JwtSecretKey = "your-secure-key-here"; // Replace with your secure key
+        private const string JwtSecretKey = "your-secure-key-here";
         private const int JwtExpirationMinutes = 60;
 
         public KorisnikController(RwagrillContext context)
@@ -120,14 +120,9 @@ namespace WebApp.Controllers
                 return BadRequest("Invalid user ID.");
             }
 
-            if (!ModelState.IsValid)
-            {
-                return View("Update", korisnikVM); 
-            }
-
             if (!string.IsNullOrEmpty(korisnikVM.Lozinka) && korisnikVM.Lozinka != repeatPassword)
             {
-                ModelState.AddModelError("", "Passwords do not match.");
+                ModelState.AddModelError("Lozinka", "Passwords do not match.");
                 return View("Update", korisnikVM);
             }
 
@@ -148,13 +143,25 @@ namespace WebApp.Controllers
                 korisnik.Salt = salt;
             }
 
-            _context.Entry(korisnik).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
+            try
+            {
+                _context.Entry(korisnik).State = EntityState.Modified;
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!_context.Korisniks.Any(k => k.Idkorisnik == id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
 
-            ViewData["SuccessMessage"] = "Profile updated successfully.";
-            return View("Update", korisnikVM);
+            return RedirectToAction("Index");
         }
-
 
 
         [HttpGet("delete/{id}")]
@@ -307,19 +314,18 @@ namespace WebApp.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest(ModelState);
+                return BadRequest(new { Message = "Invalid input." });
             }
 
             if (!string.IsNullOrEmpty(korisnikVM.Lozinka) && korisnikVM.Lozinka != repeatPassword)
             {
-                ModelState.AddModelError("", "Passwords do not match.");
-                return BadRequest(ModelState);
+                return BadRequest(new { Message = "Passwords do not match." });
             }
 
             var korisnik = await _context.Korisniks.FindAsync(korisnikVM.Idkorisnik);
             if (korisnik == null)
             {
-                return NotFound();
+                return NotFound(new { Message = "User not found." });
             }
 
             korisnik.Ime = korisnikVM.Ime;
@@ -333,11 +339,20 @@ namespace WebApp.Controllers
                 korisnik.Salt = salt;
             }
 
-            _context.Entry(korisnik).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
+            try
+            {
+                _context.Entry(korisnik).State = EntityState.Modified;
+                await _context.SaveChangesAsync();
 
-            return Ok(new { Message = "Profile updated successfully." });
+                return Ok(new { Message = "Profile updated successfully." });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = $"An error occurred: {ex.Message}" });
+            }
         }
+
+
 
 
 

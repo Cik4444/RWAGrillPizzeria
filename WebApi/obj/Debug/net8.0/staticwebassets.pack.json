@@ -1,36 +1,40 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\css\\login.css",
+      "Id": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
-      "Id": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\css\\logs.css",
+      "Id": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\css\\logs.css",
       "PackagePath": "staticwebassets\\css\\logs.css"
     },
     {
-      "Id": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\html\\login.html",
+      "Id": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\html\\login.html",
       "PackagePath": "staticwebassets\\html\\login.html"
     },
     {
-      "Id": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\html\\logs.html",
+      "Id": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\html\\logs.html",
       "PackagePath": "staticwebassets\\html\\logs.html"
     },
     {
-      "Id": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\html\\register.html",
+      "Id": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\html\\register.html",
       "PackagePath": "staticwebassets\\html\\register.html"
     },
     {
-      "Id": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\js\\login.js",
+      "Id": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\js\\login.js",
       "PackagePath": "staticwebassets\\js\\login.js"
     },
     {
-      "Id": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\js\\logs.js",
+      "Id": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\js\\logs.js",
       "PackagePath": "staticwebassets\\js\\logs.js"
     },
     {
-      "Id": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\js\\register.js",
+      "Id": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\js\\register.js",
       "PackagePath": "staticwebassets\\js\\register.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",

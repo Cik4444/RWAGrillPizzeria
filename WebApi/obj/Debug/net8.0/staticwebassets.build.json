@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CewNHUbzqfaeuYnhewkBi4FuJEzvo/gw8LJgP0gotIY=",
+  "Hash": "nd81Gi0CwjliVox//xojIJl7ik1rFw7oBAGYhRXKrDI=",
   "Source": "WebApi",
   "BasePath": "_content/WebApi",
   "Mode": "Default",
@@ -10,163 +10,837 @@
     {
       "Name": "WebApi\\wwwroot",
       "Source": "WebApi",
-      "ContentRoot": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\",
       "BasePath": "_content/WebApi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\css\\login.css",
+      "Identity": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\css\\login.css",
       "SourceId": "WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\",
       "BasePath": "_content/WebApi",
-      "RelativePath": "css/login.css",
+      "RelativePath": "css/login#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "h0shw56m4o",
+      "Integrity": "EdxdWSdIFlUHRONfvgZcT8dmVBI9TLXgHxh4UcqqfGI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\css\\logs.css",
+      "Identity": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\css\\logs.css",
       "SourceId": "WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\",
       "BasePath": "_content/WebApi",
-      "RelativePath": "css/logs.css",
+      "RelativePath": "css/logs#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "oagwjcgtqj",
+      "Integrity": "gP1RuCkorRUGApuVOyJ8RuL7fPnNi6KuamdDYKOzCWY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\logs.css"
     },
     {
-      "Identity": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\html\\login.html",
+      "Identity": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\html\\login.html",
       "SourceId": "WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\",
       "BasePath": "_content/WebApi",
-      "RelativePath": "html/login.html",
+      "RelativePath": "html/login#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "jc6u9dgikd",
+      "Integrity": "XQdQufEP3CKgxSCyxCroXlbgr8IIMXsSLBfRLCYJHIE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\html\\login.html"
     },
     {
-      "Identity": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\html\\logs.html",
+      "Identity": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\html\\logs.html",
       "SourceId": "WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\",
       "BasePath": "_content/WebApi",
-      "RelativePath": "html/logs.html",
+      "RelativePath": "html/logs#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "oaguv2jczp",
+      "Integrity": "AKWF+o8VfS5EDio/mhkJBC55zuCO9Iu3hZojQf9QNDk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\html\\logs.html"
     },
     {
-      "Identity": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\html\\register.html",
+      "Identity": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\html\\register.html",
       "SourceId": "WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\",
       "BasePath": "_content/WebApi",
-      "RelativePath": "html/register.html",
+      "RelativePath": "html/register#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "y9v71lbkec",
+      "Integrity": "6qCw4UrSJJiAq02htcnD9hYIP5NNFUBfuYFw3WXxPGo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\html\\register.html"
     },
     {
-      "Identity": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\js\\login.js",
+      "Identity": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\js\\login.js",
       "SourceId": "WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\",
       "BasePath": "_content/WebApi",
-      "RelativePath": "js/login.js",
+      "RelativePath": "js/login#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "d1q9vwkx76",
+      "Integrity": "EWsoRS4u9eMOhoSOY1IdHdJd6EtW2/t/tCIOtBSXXpU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\login.js"
     },
     {
-      "Identity": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\js\\logs.js",
+      "Identity": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\js\\logs.js",
       "SourceId": "WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\",
       "BasePath": "_content/WebApi",
-      "RelativePath": "js/logs.js",
+      "RelativePath": "js/logs#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "c003jqvmpu",
+      "Integrity": "NNJ07+6k7VGGyyjwjRZBZgcRnP47v9JjV2iD2n0F/54=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\logs.js"
     },
     {
-      "Identity": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\js\\register.js",
+      "Identity": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\js\\register.js",
       "SourceId": "WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Tin\\Desktop\\GrillPizzeriaTinCik\\WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\",
       "BasePath": "_content/WebApi",
-      "RelativePath": "js/register.js",
+      "RelativePath": "js/register#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "0r6b7u4yr7",
+      "Integrity": "FKq9UB/Lh/mCdWfKy5TCl4QwfXhEUyeZaAh9MbWN1tE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\register.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/login.css",
+      "AssetFile": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\css\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1323"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EdxdWSdIFlUHRONfvgZcT8dmVBI9TLXgHxh4UcqqfGI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 12:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EdxdWSdIFlUHRONfvgZcT8dmVBI9TLXgHxh4UcqqfGI="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.h0shw56m4o.css",
+      "AssetFile": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\css\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1323"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EdxdWSdIFlUHRONfvgZcT8dmVBI9TLXgHxh4UcqqfGI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 12:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h0shw56m4o"
+        },
+        {
+          "Name": "label",
+          "Value": "css/login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EdxdWSdIFlUHRONfvgZcT8dmVBI9TLXgHxh4UcqqfGI="
+        }
+      ]
+    },
+    {
+      "Route": "css/logs.css",
+      "AssetFile": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\css\\logs.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1354"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gP1RuCkorRUGApuVOyJ8RuL7fPnNi6KuamdDYKOzCWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 12:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gP1RuCkorRUGApuVOyJ8RuL7fPnNi6KuamdDYKOzCWY="
+        }
+      ]
+    },
+    {
+      "Route": "css/logs.oagwjcgtqj.css",
+      "AssetFile": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\css\\logs.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1354"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gP1RuCkorRUGApuVOyJ8RuL7fPnNi6KuamdDYKOzCWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 12:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oagwjcgtqj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/logs.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gP1RuCkorRUGApuVOyJ8RuL7fPnNi6KuamdDYKOzCWY="
+        }
+      ]
+    },
+    {
+      "Route": "html/login.html",
+      "AssetFile": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\html\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "943"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XQdQufEP3CKgxSCyxCroXlbgr8IIMXsSLBfRLCYJHIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 12:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XQdQufEP3CKgxSCyxCroXlbgr8IIMXsSLBfRLCYJHIE="
+        }
+      ]
+    },
+    {
+      "Route": "html/login.jc6u9dgikd.html",
+      "AssetFile": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\html\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "943"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XQdQufEP3CKgxSCyxCroXlbgr8IIMXsSLBfRLCYJHIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 12:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jc6u9dgikd"
+        },
+        {
+          "Name": "label",
+          "Value": "html/login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XQdQufEP3CKgxSCyxCroXlbgr8IIMXsSLBfRLCYJHIE="
+        }
+      ]
+    },
+    {
+      "Route": "html/logs.html",
+      "AssetFile": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\html\\logs.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1217"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AKWF+o8VfS5EDio/mhkJBC55zuCO9Iu3hZojQf9QNDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 12:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AKWF+o8VfS5EDio/mhkJBC55zuCO9Iu3hZojQf9QNDk="
+        }
+      ]
+    },
+    {
+      "Route": "html/logs.oaguv2jczp.html",
+      "AssetFile": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\html\\logs.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1217"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AKWF+o8VfS5EDio/mhkJBC55zuCO9Iu3hZojQf9QNDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 12:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oaguv2jczp"
+        },
+        {
+          "Name": "label",
+          "Value": "html/logs.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AKWF+o8VfS5EDio/mhkJBC55zuCO9Iu3hZojQf9QNDk="
+        }
+      ]
+    },
+    {
+      "Route": "html/register.html",
+      "AssetFile": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\html\\register.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6qCw4UrSJJiAq02htcnD9hYIP5NNFUBfuYFw3WXxPGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 12:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6qCw4UrSJJiAq02htcnD9hYIP5NNFUBfuYFw3WXxPGo="
+        }
+      ]
+    },
+    {
+      "Route": "html/register.y9v71lbkec.html",
+      "AssetFile": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\html\\register.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6qCw4UrSJJiAq02htcnD9hYIP5NNFUBfuYFw3WXxPGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 12:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y9v71lbkec"
+        },
+        {
+          "Name": "label",
+          "Value": "html/register.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6qCw4UrSJJiAq02htcnD9hYIP5NNFUBfuYFw3WXxPGo="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.d1q9vwkx76.js",
+      "AssetFile": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\js\\login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1120"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EWsoRS4u9eMOhoSOY1IdHdJd6EtW2/t/tCIOtBSXXpU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 12:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d1q9vwkx76"
+        },
+        {
+          "Name": "label",
+          "Value": "js/login.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EWsoRS4u9eMOhoSOY1IdHdJd6EtW2/t/tCIOtBSXXpU="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.js",
+      "AssetFile": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\js\\login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1120"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EWsoRS4u9eMOhoSOY1IdHdJd6EtW2/t/tCIOtBSXXpU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 12:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EWsoRS4u9eMOhoSOY1IdHdJd6EtW2/t/tCIOtBSXXpU="
+        }
+      ]
+    },
+    {
+      "Route": "js/logs.c003jqvmpu.js",
+      "AssetFile": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\js\\logs.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2052"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NNJ07+6k7VGGyyjwjRZBZgcRnP47v9JjV2iD2n0F/54=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 12:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c003jqvmpu"
+        },
+        {
+          "Name": "label",
+          "Value": "js/logs.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NNJ07+6k7VGGyyjwjRZBZgcRnP47v9JjV2iD2n0F/54="
+        }
+      ]
+    },
+    {
+      "Route": "js/logs.js",
+      "AssetFile": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\js\\logs.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2052"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NNJ07+6k7VGGyyjwjRZBZgcRnP47v9JjV2iD2n0F/54=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 12:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NNJ07+6k7VGGyyjwjRZBZgcRnP47v9JjV2iD2n0F/54="
+        }
+      ]
+    },
+    {
+      "Route": "js/register.0r6b7u4yr7.js",
+      "AssetFile": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\js\\register.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1762"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FKq9UB/Lh/mCdWfKy5TCl4QwfXhEUyeZaAh9MbWN1tE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 12:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0r6b7u4yr7"
+        },
+        {
+          "Name": "label",
+          "Value": "js/register.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FKq9UB/Lh/mCdWfKy5TCl4QwfXhEUyeZaAh9MbWN1tE="
+        }
+      ]
+    },
+    {
+      "Route": "js/register.js",
+      "AssetFile": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\wwwroot\\js\\register.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1762"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FKq9UB/Lh/mCdWfKy5TCl4QwfXhEUyeZaAh9MbWN1tE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 12:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FKq9UB/Lh/mCdWfKy5TCl4QwfXhEUyeZaAh9MbWN1tE="
+        }
+      ]
     }
   ]
 }

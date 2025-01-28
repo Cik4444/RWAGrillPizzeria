@@ -1,0 +1,36 @@
+﻿@model WebApp.ViewModels.KorisnikVM
+
+@{
+    ViewData["Title"] = "Detalji Korisnika";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center">Detalji Korisnika</h2>
+    <hr />
+
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h4>Korisnik: @Model.Ime @Model.Prezime</h4>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">ID Korisnika:</dt>
+                <dd class="col-sm-9">@Model.Idkorisnik</dd>
+
+                <dt class="col-sm-3">Ime:</dt>
+                <dd class="col-sm-9">@Model.Ime</dd>
+
+                <dt class="col-sm-3">Prezime:</dt>
+                <dd class="col-sm-9">@Model.Prezime</dd>
+
+                <dt class="col-sm-3">E-mail:</dt>
+                <dd class="col-sm-9">@Model.Email</dd>
+            </dl>
+        </div>
+        <div class="card-footer text-end">
+            <a asp-action="Index" asp-controller="Korisnik" class="btn btn-secondary">Nazad na Listu</a>
+            <a asp-action="Edit" asp-route-id="@Model.Idkorisnik" class="btn btn-warning">Uredi</a>
+            <a asp-action="Delete" asp-route-id="@Model.Idkorisnik" class="btn btn-danger" onclick="return confirm('Jeste li sigurni da želite obrisati ovog korisnika?');">Obriši</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+﻿@model WebApp.ViewModels.NarudzbaVM
+
+@{
+    ViewData["Title"] = "Uredi Narudžbu";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center">Uredi Narudžbu</h2>
+    <hr />
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="Idnarudzba" />
+        <div class="form-group">
+            <label asp-for="Datum">Datum:</label>
+            <input asp-for="Datum" type="datetime-local" class="form-control" />
+            <span asp-validation-for="Datum" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Korisnik:</label>
+            <select asp-for="Korisnik.Idkorisnik" class="form-control">
+                <option value="">Odaberite Korisnika</option>
+                @foreach (var korisnik in ViewBag.Korisnici as IEnumerable<WebApp.Models.Korisnik>)
+                {
+                    <option value="@korisnik.Idkorisnik" selected="@(Model.Korisnik?.Idkorisnik == korisnik.Idkorisnik ? "selected" : "")">
+                        @korisnik.Ime @korisnik.Prezime
+                    </option>
+                }
+            </select>
+            <span asp-validation-for="Korisnik.Idkorisnik" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Spremi</button>
+        <a asp-action="Index" class="btn btn-secondary mt-3">Povratak</a>
+    </form>
+</div>

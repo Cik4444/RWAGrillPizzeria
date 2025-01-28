@@ -25,12 +25,21 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Home" asp-action="Index">Početna</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="KategorijaHrane" asp-action="Index">Kategorije</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Hrana" asp-action="Index">Jelovnik</a>
-                        </li>
+                        @if (User.Identity?.IsAuthenticated ?? false)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="KategorijaHrane" asp-action="Index">Kategorije</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Hrana" asp-action="Index">Jelovnik</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Korisnik" asp-action="Index">Korisnici</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Narudzba" asp-action="Index">Narudzbe</a>
+                            </li>
+                        }
                     </ul>
                     <div class="d-flex">
                         @if (User.Identity?.IsAuthenticated ?? false)

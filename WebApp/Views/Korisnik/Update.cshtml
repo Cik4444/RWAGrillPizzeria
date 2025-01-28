@@ -1,53 +1,59 @@
 ﻿@model WebApp.ViewModels.KorisnikVM
 
 @{
-    ViewData["Title"] = "Profile";
+    ViewData["Title"] = "Ažuriranje Profila";
 }
 
 <div class="container mt-4">
-    <h2>Profile</h2>
+    <h2 class="text-center">Ažuriraj Korisnika</h2>
 
-    @if (ViewData["SuccessMessage"] != null)
+    @if (ViewData.ModelState.IsValid && ViewData["SuccessMessage"] != null)
     {
-        <div class="alert alert-success">@ViewData["SuccessMessage"]</div>
+        <div class="alert alert-success" role="alert">
+            @ViewData["SuccessMessage"]
+        </div>
     }
-
-    @if (!ViewData.ModelState.IsValid)
+    else if (!ViewData.ModelState.IsValid && ViewData.ModelState.ContainsKey("Lozinka"))
     {
-        <div class="alert alert-danger">
-            Please correct the errors below and try again.
+        <div class="alert alert-danger" role="alert">
+            @ViewData.ModelState["Lozinka"].Errors.FirstOrDefault()?.ErrorMessage
         </div>
     }
 
-    <form asp-action="Update" asp-controller="Korisnik" asp-route-id="@Model.Idkorisnik" method="post">
+    <form asp-action="Edit" asp-controller="Korisnik" method="post">
         <input type="hidden" asp-for="Idkorisnik" />
+
         <div class="form-group">
             <label asp-for="Ime">Ime:</label>
-            <input asp-for="Ime" class="form-control" />
+            <input asp-for="Ime" class="form-control" required />
             <span asp-validation-for="Ime" class="text-danger"></span>
         </div>
+
         <div class="form-group">
             <label asp-for="Prezime">Prezime:</label>
-            <input asp-for="Prezime" class="form-control" />
+            <input asp-for="Prezime" class="form-control" required />
             <span asp-validation-for="Prezime" class="text-danger"></span>
         </div>
+
         <div class="form-group">
             <label asp-for="Email">E-mail:</label>
-            <input asp-for="Email" class="form-control" />
-            <span asp-validation-for="Email" class="text-danger"></span>
+            <input asp-for="Email" class="form-control"/>
         </div>
+
         <div class="form-group">
-            <label>Lozinka:</label>
+            <label>Nova Lozinka (ostavite prazno ako ne mijenjate):</label>
             <input type="password" asp-for="Lozinka" class="form-control" />
+            <span asp-validation-for="Lozinka" class="text-danger"></span>
         </div>
+
         <div class="form-group">
-            <label>Ponovi lozinku:</label>
-            <input type="password" name="RepeatPassword" class="form-control" />
+            <label>Ponovi Lozinku:</label>
+            <input type="password" id="repeatPassword" name="repeatPassword" class="form-control" />
         </div>
+
         <div class="d-flex justify-content-between mt-4">
-            <a asp-action="Profile" class="btn btn-secondary">Odustani</a>
-            <button type="submit" class="btn btn-primary">Spremi</button>
+            <a asp-action="Index" asp-controller="Korisnik" class="btn btn-secondary">Odustani</a>
+            <button type="submit" class="btn btn-primary">Spremi Promjene</button>
         </div>
     </form>
-
 </div>

@@ -1,0 +1,39 @@
+﻿@model List<WebApp.ViewModels.KorisnikVM>
+
+@{
+    ViewData["Title"] = "Popis Korisnika";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Popis Korisnika</h2>
+
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>ID</th>
+                <th>Ime</th>
+                <th>Prezime</th>
+                <th>Email</th>
+                <th>Akcije</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var korisnik in Model)
+            {
+                <tr>
+                    <td>@korisnik.Idkorisnik</td>
+                    <td>@korisnik.Ime</td>
+                    <td>@korisnik.Prezime</td>
+                    <td>@korisnik.Email</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@korisnik.Idkorisnik" class="btn btn-info btn-sm">Details</a>
+                        <a asp-action="Edit" asp-route-id="@korisnik.Idkorisnik" class="btn btn-warning btn-sm">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@korisnik.Idkorisnik" class="btn btn-danger btn-sm" onclick="return confirm('Jeste li sigurni da želite izbrisati ovog korisnika?');">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a asp-action="Create" class="btn btn-primary">Dodaj Novog Korisnika</a>
+</div>

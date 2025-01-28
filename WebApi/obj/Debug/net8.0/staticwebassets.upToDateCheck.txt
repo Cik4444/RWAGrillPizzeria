@@ -1,0 +1,8 @@
+wwwroot\css\login.css
+wwwroot\css\logs.css
+wwwroot\html\login.html
+wwwroot\html\logs.html
+wwwroot\html\register.html
+wwwroot\js\login.js
+wwwroot\js\logs.js
+wwwroot\js\register.js
