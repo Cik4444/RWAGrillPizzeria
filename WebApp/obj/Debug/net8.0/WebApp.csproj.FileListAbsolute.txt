@@ -256,3 +256,4 @@ C:\Users\Tin\Desktop\GrillPizzeriaTinCik\WebApp\bin\Debug\net8.0\runtimes\win\li
 C:\Users\Tin\Desktop\GrillPizzeriaTinCik\WebApp\obj\Debug\net8.0\WebApp.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Tin\Desktop\GrillPizzeriaTinCik\WebApp\bin\Debug\net8.0\X.PagedList.dll
 C:\Users\Tin\Desktop\GrillPizzeriaTinCik\WebApp\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
+C:\Users\Tin\Desktop\GrillPizzeriaTinCik\WebApp\obj\Debug\net8.0\WebApp.sourcelink.json

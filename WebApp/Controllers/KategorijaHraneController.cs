@@ -73,7 +73,7 @@ namespace WebApp.Controllers
             return View(kategorijaHrane);
         }
 
-
+        [HttpGet("Edit/{id}")]
         public async Task<IActionResult> Edit(int id)
         {
             var kategorija = await _context.KategorijaHranes.FindAsync(id);
@@ -82,42 +82,48 @@ namespace WebApp.Controllers
                 return NotFound();
             }
 
-            return View(kategorija);
+            var kategorijaVM = new KategorijaHraneVM
+            {
+                IdkategorijaHrane = kategorija.IdkategorijaHrane,
+                Naziv = kategorija.Naziv,
+                Opis = kategorija.Opis
+            };
+
+            return View(kategorijaVM);
         }
 
-        [HttpPost]
+
+        [HttpPost("Edit/{id}")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, KategorijaHrane kategorijaHrane)
+        public async Task<IActionResult> Edit(int id, KategorijaHraneVM kategorijaVM)
         {
-            if (id != kategorijaHrane.IdkategorijaHrane)
+            kategorijaVM.IdkategorijaHrane = id;
+            if (id != kategorijaVM.IdkategorijaHrane)
             {
                 return BadRequest("Invalid ID.");
             }
 
             if (ModelState.IsValid)
             {
-                try
+                var kategorija = await _context.KategorijaHranes.FindAsync(id);
+                if (kategorija == null)
                 {
-                    _context.Entry(kategorijaHrane).State = EntityState.Modified;
-                    await _context.SaveChangesAsync();
+                    return NotFound();
                 }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!KategorijaHraneExists(kategorijaHrane.IdkategorijaHrane))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
+
+                kategorija.Naziv = kategorijaVM.Naziv;
+                kategorija.Opis = kategorijaVM.Opis;
+
+                _context.Entry(kategorija).State = EntityState.Modified;
+                await _context.SaveChangesAsync();
 
                 return RedirectToAction(nameof(Index));
             }
 
-            return View(kategorijaHrane);
+            return View("Edit",kategorijaVM);
         }
+
+
 
         private bool KategorijaHraneExists(int id)
         {
@@ -125,22 +131,40 @@ namespace WebApp.Controllers
         }
 
 
+        [HttpGet("Delete/{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var kategorija = await _context.KategorijaHranes.FirstOrDefaultAsync(k => k.IdkategorijaHrane == id);
+            var kategorija = await _context.KategorijaHranes
+                .Include(k => k.Hranas)
+                .FirstOrDefaultAsync(k => k.IdkategorijaHrane == id);
 
             if (kategorija == null)
             {
                 return NotFound();
             }
 
-            return View(kategorija);
+            var kategorijaVM = new KategorijaHraneVM
+            {
+                IdkategorijaHrane = kategorija.IdkategorijaHrane,
+                Naziv = kategorija.Naziv,
+                Opis = kategorija.Opis,
+                Hranas = kategorija.Hranas.ToList()
+            };
+
+            return View(kategorijaVM);
         }
 
-        [HttpPost, ActionName("Delete")]
+
+        [HttpPost("Delete/{id}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            var relatedHranas = _context.Hranas.Where(h => h.KategorijaHraneId == id);
+            if (relatedHranas.Any())
+            {
+                _context.Hranas.RemoveRange(relatedHranas);
+            }
+
             var kategorija = await _context.KategorijaHranes.FindAsync(id);
             if (kategorija == null)
             {
@@ -149,8 +173,11 @@ namespace WebApp.Controllers
 
             _context.KategorijaHranes.Remove(kategorija);
             await _context.SaveChangesAsync();
+
             return RedirectToAction(nameof(Index));
         }
+
+
 
     }
 }

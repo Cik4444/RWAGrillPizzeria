@@ -1,32 +1,55 @@
 ﻿@model WebApp.ViewModels.KategorijaHraneVM
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Delete Category";
 }
 
-<h1>Brisanje</h1>
-
-<h3>Jeste li sigurni da želite ovo obrisati?</h3>
-<div>
-    <h4>KategorijaHraneVM</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Naziv)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Naziv)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Opis)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Opis)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete">
-        <input type="submit" value="Obriši" class="btn btn-danger" /> |
-        <a asp-action="Index">Povratak na listu kategorija</a>
-    </form>
+<h1>Brisanje kategorije</h1>
+<h4>Jeste li sigurni da želite obrisati ovu kategoriju i svu povezanu hranu?</h4>
+<div class="alert alert-warning">
+    <p>Ova akcija će obrisati sljedeće:</p>
+    <ul>
+        <li>Kategorija: <strong>@Model.Naziv</strong></li>
+        @if (Model.Hranas != null && Model.Hranas.Any())
+        {
+            <li>Sva povezana jela (prikazana dolje).</li>
+        }
+    </ul>
 </div>
+
+<h5>Detalji o kategoriji:</h5>
+<p><strong>Opis:</strong> @Model.Opis</p>
+
+@if (Model.Hranas != null && Model.Hranas.Any())
+{
+    <h5>Povezana jela:</h5>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Naslov</th>
+                <th>Opis</th>
+                <th>Cijena</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var hrana in Model.Hranas)
+            {
+                <tr>
+                    <td>@hrana.Naslov</td>
+                    <td>@hrana.Opis</td>
+                    <td>@hrana.Cijena?.ToString("F2") kn</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="text-muted">Nema povezanih jela za ovu kategoriju.</p>
+}
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="IdkategorijaHrane" />
+    <button type="submit" class="btn btn-danger">Obriši</button>
+    <a asp-action="Index" class="btn btn-secondary">Odustani</a>
+</form>
