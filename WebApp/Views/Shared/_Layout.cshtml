@@ -1,8 +1,10 @@
 ﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
 @if (IsSectionDefined("Scripts"))
 {
     @RenderSection("Scripts")
 }
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,25 +24,36 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav me-auto">
+                        <!-- Always visible -->
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Home" asp-action="Index">Početna</a>
                         </li>
+
                         @if (User.Identity?.IsAuthenticated ?? false)
                         {
-                            <li class="nav-item">
-                                <a class="nav-link" asp-controller="KategorijaHrane" asp-action="Index">Kategorije</a>
-                            </li>
+                            var roleIdClaim = User.Claims.FirstOrDefault(c => c.Type == "RoleId")?.Value;
+                            int roleId = roleIdClaim != null ? int.Parse(roleIdClaim) : 0;
+
+                            <!-- Available for both Admins (RoleId = 1) and Users (RoleId = 2) -->
                             <li class="nav-item">
                                 <a class="nav-link" asp-controller="Hrana" asp-action="Index">Jelovnik</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" asp-controller="Korisnik" asp-action="Index">Korisnici</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" asp-controller="Narudzba" asp-action="Index">Narudzbe</a>
-                            </li>
+
+                            @if (roleId == 1) // Admin (RoleId = 1)
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="KategorijaHrane" asp-action="Index">Kategorije</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Korisnik" asp-action="Index">Korisnici</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Narudzba" asp-action="Index">Narudzbe</a>
+                                </li>
+                            }
                         }
                     </ul>
+
                     <div class="d-flex">
                         @if (User.Identity?.IsAuthenticated ?? false)
                         {

@@ -40,6 +40,15 @@ namespace WebApi.Controllers
             string salt = PasswordHashProvider.GetSalt();
             string hashedPassword = PasswordHashProvider.GetHash(korisnikDto.Lozinka, salt);
 
+            var userRole = await _context.Roles.FirstOrDefaultAsync(r => r.RoleName == "User");
+            if (userRole == null)
+            {
+                userRole = new Role { RoleName = "User" };
+                _context.Roles.Add(userRole);
+                await _context.SaveChangesAsync();
+            }
+
+
             var korisnik = new Korisnik
             {
                 Idkorisnik = newId,
@@ -47,7 +56,8 @@ namespace WebApi.Controllers
                 Prezime = korisnikDto.Prezime,
                 Email = korisnikDto.Email,
                 Lozinka = hashedPassword,
-                Salt = salt
+                Salt = salt,
+                RoleId = userRole.RoleId
             };
 
             _context.Korisniks.Add(korisnik);
@@ -209,6 +219,14 @@ namespace WebApi.Controllers
             string salt = PasswordHashProvider.GetSalt();
             string hashedPassword = PasswordHashProvider.GetHash(registerDto.Lozinka, salt);
 
+            var userRole = await _context.Roles.FirstOrDefaultAsync(r => r.RoleName == "User");
+            if (userRole == null)
+            {
+                userRole = new Role { RoleName = "User" };
+                _context.Roles.Add(userRole);
+                await _context.SaveChangesAsync();
+            }
+
             var korisnik = new Korisnik
             {
                 Idkorisnik = newId,
@@ -216,7 +234,8 @@ namespace WebApi.Controllers
                 Prezime = registerDto.Prezime,
                 Email = registerDto.Email,
                 Lozinka = hashedPassword,
-                Salt = salt
+                Salt = salt,
+                RoleId = userRole.RoleId
             };
 
             _context.Korisniks.Add(korisnik);

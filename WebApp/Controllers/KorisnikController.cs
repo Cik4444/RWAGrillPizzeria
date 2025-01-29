@@ -73,6 +73,14 @@ namespace WebApp.Controllers
                 var salt = PasswordHashProvider.GetSalt();
                 var hashedPassword = PasswordHashProvider.GetHash(korisnikVM.Lozinka, salt);
 
+                var userRole = await _context.Roles.FirstOrDefaultAsync(r => r.RoleName == "User");
+                if (userRole == null)
+                {
+                    userRole = new Role { RoleName = "User" };
+                    _context.Roles.Add(userRole);
+                    await _context.SaveChangesAsync();
+                }
+
                 var korisnik = new Korisnik
                 {
                     Idkorisnik = nextId,
@@ -80,12 +88,13 @@ namespace WebApp.Controllers
                     Prezime = korisnikVM.Prezime,
                     Email = korisnikVM.Email,
                     Lozinka = hashedPassword,
-                    Salt = salt
+                    Salt = salt,
+                    RoleId = userRole.RoleId
                 };
 
                 _context.Korisniks.Add(korisnik);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Login");
+                return RedirectToAction("Index");
             }
 
             return View(korisnikVM);
@@ -224,9 +233,10 @@ namespace WebApp.Controllers
 
             var claims = new List<Claim>
             {
-                new Claim(ClaimTypes.Name, korisnik.Email),
-                new Claim(ClaimTypes.Role, "User") 
+                 new Claim(ClaimTypes.Name, korisnik.Email),
+                 new Claim("RoleId", korisnik.RoleId.ToString())
             };
+
 
             var identity = new ClaimsIdentity(claims, "CookieAuth");
             var principal = new ClaimsPrincipal(identity);
@@ -253,6 +263,14 @@ namespace WebApp.Controllers
                 var salt = PasswordHashProvider.GetSalt();
                 var hashedPassword = PasswordHashProvider.GetHash(korisnikVM.Lozinka, salt);
 
+                var userRole = await _context.Roles.FirstOrDefaultAsync(r => r.RoleName == "User");
+                if (userRole == null)
+                {
+                    userRole = new Role { RoleName = "User" };
+                    _context.Roles.Add(userRole);
+                    await _context.SaveChangesAsync();
+                }
+
                 var korisnik = new Korisnik
                 {
                     Idkorisnik = nextId,
@@ -260,7 +278,8 @@ namespace WebApp.Controllers
                     Prezime = korisnikVM.Prezime,
                     Email = korisnikVM.Email,
                     Lozinka = hashedPassword,
-                    Salt = salt
+                    Salt = salt,
+                    RoleId = userRole.RoleId
                 };
 
                 _context.Korisniks.Add(korisnik);
@@ -270,6 +289,7 @@ namespace WebApp.Controllers
 
             return View(korisnikVM);
         }
+
 
         [HttpPost("logout")]
         public async Task<IActionResult> Logout()

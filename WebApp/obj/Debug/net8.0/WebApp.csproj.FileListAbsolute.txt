@@ -512,10 +512,10 @@ C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApp\obj\Debug\n
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApp\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApp.props
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApp\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApp.props
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApp\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApp\obj\Debug\net8.0\WebApp.csproj.Up2Date
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApp\obj\Debug\net8.0\WebApp.dll
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApp\obj\Debug\net8.0\refint\WebApp.dll
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApp\obj\Debug\net8.0\WebApp.pdb
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApp\obj\Debug\net8.0\WebApp.genruntimeconfig.cache
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApp\obj\Debug\net8.0\ref\WebApp.dll
+C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

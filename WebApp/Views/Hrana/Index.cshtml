@@ -1,9 +1,12 @@
-﻿@using X.PagedList
+﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@using X.PagedList
 @using X.PagedList.Mvc.Core
 @model IPagedList<WebApp.ViewModels.HranaVM>
 
 @{
     ViewData["Title"] = "Hrana";
+    var roleIdClaim = User.Claims.FirstOrDefault(c => c.Type == "RoleId")?.Value;
+    int roleId = roleIdClaim != null ? int.Parse(roleIdClaim) : 0;
 }
 
 <h1>Hrana</h1>
@@ -19,36 +22,22 @@
             <option value="">Sve kategorije</option>
             @foreach (var category in ViewBag.Categories as IEnumerable<WebApp.Models.KategorijaHrane>)
             {
-                if (ViewData["Filter"]?.ToString() == category.IdkategorijaHrane.ToString())
-                {
-                    <option value="@category.IdkategorijaHrane" selected>@category.Naziv</option>
-                }
-                else
-                {
-                    <option value="@category.IdkategorijaHrane">@category.Naziv</option>
-                }
+                <option value="@category.IdkategorijaHrane" selected="@(ViewData["Filter"]?.ToString() == category.IdkategorijaHrane.ToString() ? "selected" : null)">
+                    @category.Naziv
+                </option>
             }
         </select>
     </div>
     <div class="form-group">
         <label for="pageSize">Broj stavki po stranici:</label>
         <select id="pageSize" name="pageSize" class="form-control" onchange="this.form.submit()">
-            
             @{
-                var pageSizes = new[] { 5, 10, 20 }; 
-                var selectedPageSize = ViewBag.PageSize; 
+                var pageSizes = new[] { 5, 10, 20 };
+                var selectedPageSize = ViewBag.PageSize;
             }
-
             @foreach (var size in pageSizes)
             {
-                if (size == selectedPageSize)
-                {
-                    <option value="@size" selected="selected">@size</option>
-                }
-                else
-                {
-                    <option value="@size">@size</option>
-                }
+                <option value="@size" selected="@(size == selectedPageSize ? "selected" : null)">@size</option>
             }
         </select>
     </div>
@@ -63,7 +52,10 @@
             <th>Opis</th>
             <th>Cijena</th>
             <th>Kategorija</th>
-            <th>Actions</th>
+            @if (roleId == 1)
+            {
+                <th>Actions</th>
+            }
         </tr>
     </thead>
     <tbody>
@@ -76,8 +68,11 @@
                 <td>@item.KategorijaHrane?.Naziv</td>
                 <td>
                     <a asp-action="Details" asp-route-id="@item.Idhrana" class="btn btn-info">Details</a>
-                    <a asp-action="Update" asp-route-id="@item.Idhrana" class="btn btn-warning">Edit</a>
-                    <a asp-action="Delete" asp-route-id="@item.Idhrana" class="btn btn-danger">Delete</a>
+                    @if (roleId == 1) 
+                    {
+                        <a asp-action="Update" asp-route-id="@item.Idhrana" class="btn btn-warning">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@item.Idhrana" class="btn btn-danger">Delete</a>
+                    }
                 </td>
             </tr>
         }
@@ -90,11 +85,14 @@
             page => Url.Action("Index", new { page, search = ViewBag.Search, filter = ViewBag.Filter, pageSize = ViewBag.PageSize }),
             new PagedListRenderOptions
     {
-        UlElementClasses = new[] { "pagination", "justify-content-center" }, 
-        LiElementClasses = new[] { "page-item" }, 
-        PageClasses = new[] { "page-link" } 
+        UlElementClasses = new[] { "pagination", "justify-content-center" },
+        LiElementClasses = new[] { "page-item" },
+        PageClasses = new[] { "page-link" }
     }
             )
 </div>
 
-<a asp-action="Create" class="btn btn-primary">Dodaj novu vrstu hrane</a>
+@if (roleId == 1)
+{
+    <a asp-action="Create" class="btn btn-primary">Dodaj novu vrstu hrane</a>
+}

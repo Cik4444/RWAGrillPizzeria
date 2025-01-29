@@ -657,6 +657,11 @@
             "type": "string",
             "nullable": true
           },
+          "roleId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
           "narudzbas": {
             "type": "array",
             "items": {
@@ -664,6 +669,9 @@
             },
             "nullable": true,
             "readOnly": true
+          },
+          "role": {
+            "$ref": "#/components/schemas/Role"
           }
         },
         "additionalProperties": false
@@ -788,6 +796,28 @@
           },
           "narudzba": {
             "$ref": "#/components/schemas/Narudzba"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Role": {
+        "type": "object",
+        "properties": {
+          "roleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "roleName": {
+            "type": "string",
+            "nullable": true
+          },
+          "korisniks": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Korisnik"
+            },
+            "nullable": true,
+            "readOnly": true
           }
         },
         "additionalProperties": false

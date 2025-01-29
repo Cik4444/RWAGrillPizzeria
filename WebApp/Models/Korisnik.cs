@@ -17,5 +17,9 @@ public partial class Korisnik
 
     public string? Salt { get; set; }
 
+    public int? RoleId { get; set; }
+
     public virtual ICollection<Narudzba> Narudzbas { get; } = new List<Narudzba>();
+
+    public virtual Role? Role { get; set; }
 }

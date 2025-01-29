@@ -31,15 +31,17 @@ public partial class RwagrillContext : DbContext
 
     public virtual DbSet<NarudzbaHrana> NarudzbaHranas { get; set; }
 
+    public virtual DbSet<Role> Roles { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("name = ConnectionStrings:DbConnStr");
+        => optionsBuilder.UseSqlServer("Server=WIN-IL1B7CU893Q;Database=RWAGrill;Trusted_Connection=True;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Alergen>(entity =>
         {
-            entity.HasKey(e => e.Idalergen).HasName("PK__Alergen__5F4CB147EA79892A");
+            entity.HasKey(e => e.Idalergen).HasName("PK__Alergen__5F4CB147C94BD871");
 
             entity.ToTable("Alergen");
 
@@ -53,7 +55,7 @@ public partial class RwagrillContext : DbContext
 
         modelBuilder.Entity<Hrana>(entity =>
         {
-            entity.HasKey(e => e.Idhrana).HasName("PK__Hrana__0395A1096E2F9759");
+            entity.HasKey(e => e.Idhrana).HasName("PK__Hrana__0395A109C8FBE869");
 
             entity.ToTable("Hrana");
 
@@ -73,7 +75,7 @@ public partial class RwagrillContext : DbContext
 
         modelBuilder.Entity<HranaAlergen>(entity =>
         {
-            entity.HasKey(e => e.IdhranaAlergen).HasName("PK__HranaAle__99A532780CA08E51");
+            entity.HasKey(e => e.IdhranaAlergen).HasName("PK__HranaAle__99A53278F716CB9C");
 
             entity.ToTable("HranaAlergen");
 
@@ -94,7 +96,7 @@ public partial class RwagrillContext : DbContext
 
         modelBuilder.Entity<KategorijaHrane>(entity =>
         {
-            entity.HasKey(e => e.IdkategorijaHrane).HasName("PK__Kategori__EC1C4505A2707E56");
+            entity.HasKey(e => e.IdkategorijaHrane).HasName("PK__Kategori__EC1C4505083E0FEA");
 
             entity.ToTable("KategorijaHrane");
 
@@ -108,7 +110,7 @@ public partial class RwagrillContext : DbContext
 
         modelBuilder.Entity<Korisnik>(entity =>
         {
-            entity.HasKey(e => e.Idkorisnik).HasName("PK__Korisnik__6F9CD5C4DEED8567");
+            entity.HasKey(e => e.Idkorisnik).HasName("PK__Korisnik__6F9CD5C4A97BBBBE");
 
             entity.ToTable("Korisnik");
 
@@ -124,11 +126,15 @@ public partial class RwagrillContext : DbContext
             entity.Property(e => e.Prezime)
                 .HasMaxLength(100)
                 .IsUnicode(false);
+
+            entity.HasOne(d => d.Role).WithMany(p => p.Korisniks)
+                .HasForeignKey(d => d.RoleId)
+                .HasConstraintName("FK__Korisnik__RoleId__01142BA1");
         });
 
         modelBuilder.Entity<Log>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Logs__3214EC074A6F71E9");
+            entity.HasKey(e => e.Id).HasName("PK__Logs__3214EC0795BA204C");
 
             entity.Property(e => e.Level).HasMaxLength(20);
             entity.Property(e => e.Message).HasMaxLength(500);
@@ -139,7 +145,7 @@ public partial class RwagrillContext : DbContext
 
         modelBuilder.Entity<Narudzba>(entity =>
         {
-            entity.HasKey(e => e.Idnarudzba).HasName("PK__Narudzba__458DF9D90166D870");
+            entity.HasKey(e => e.Idnarudzba).HasName("PK__Narudzba__458DF9D9852ED1DB");
 
             entity.ToTable("Narudzba");
 
@@ -156,7 +162,7 @@ public partial class RwagrillContext : DbContext
 
         modelBuilder.Entity<NarudzbaHrana>(entity =>
         {
-            entity.HasKey(e => e.IdnarudzbaHrana).HasName("PK__Narudzba__1DAB7334041C0741");
+            entity.HasKey(e => e.IdnarudzbaHrana).HasName("PK__Narudzba__1DAB733478BCFDEE");
 
             entity.ToTable("NarudzbaHrana");
 
@@ -173,6 +179,15 @@ public partial class RwagrillContext : DbContext
             entity.HasOne(d => d.Narudzba).WithMany(p => p.NarudzbaHranas)
                 .HasForeignKey(d => d.NarudzbaId)
                 .HasConstraintName("FK__NarudzbaH__Narud__59063A47");
+        });
+
+        modelBuilder.Entity<Role>(entity =>
+        {
+            entity.HasKey(e => e.RoleId).HasName("PK__Role__8AFACE1ADC821143");
+
+            entity.ToTable("Role");
+
+            entity.Property(e => e.RoleName).HasMaxLength(100);
         });
 
         OnModelCreatingPartial(modelBuilder);

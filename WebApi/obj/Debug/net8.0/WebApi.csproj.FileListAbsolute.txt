@@ -149,10 +149,10 @@ C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApi\obj\Debug\n
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApi.props
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApi\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApi\obj\Debug\net8.0\WebApi.csproj.Up2Date
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApi\obj\Debug\net8.0\WebApi.dll
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApi\obj\Debug\net8.0\refint\WebApi.dll
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApi\obj\Debug\net8.0\WebApi.pdb
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApi\obj\Debug\net8.0\ref\WebApi.dll
+C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
