@@ -17,7 +17,7 @@
             <label>Korisnik:</label>
             <select asp-for="Korisnik.Idkorisnik" class="form-control">
                 <option value="">Odaberite Korisnika</option>
-                @foreach (var korisnik in ViewBag.Korisnici as IEnumerable<WebApp.Models.Korisnik>)
+                @foreach (var korisnik in ViewBag.Korisnici as IEnumerable<GrillPizzeriaBL.Models.Korisnik>)
                 {
                     <option value="@korisnik.Idkorisnik">@korisnik.Ime @korisnik.Prezime</option>
                 }

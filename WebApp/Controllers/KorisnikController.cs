@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using WebApp.Models;
+using GrillPizzeriaBL.Models;
 using WebApp.ViewModels;
 using WebApp.Security;
 using System.Linq;

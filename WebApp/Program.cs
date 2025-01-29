@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using WebApp.Models;
+using GrillPizzeriaBL.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

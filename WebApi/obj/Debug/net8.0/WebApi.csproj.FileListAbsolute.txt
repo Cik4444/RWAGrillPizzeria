@@ -156,3 +156,5 @@ C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApi\obj\Debug\n
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApi\obj\Debug\net8.0\ref\WebApi.dll
 C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApi\bin\Debug\net8.0\GrillPizzeriaBL.dll
+C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\WebApi\bin\Debug\net8.0\GrillPizzeriaBL.pdb

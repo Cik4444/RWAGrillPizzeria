@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Linq;
-using WebApi.Models;
+using GrillPizzeriaBL.Models;
 
 [Route("api/logs")]
 [ApiController]

@@ -1,0 +1,15 @@
+C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\GrillPizzeriaBL\bin\Debug\net8.0\GrillPizzeriaBL.deps.json
+C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\GrillPizzeriaBL\bin\Debug\net8.0\GrillPizzeriaBL.dll
+C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\GrillPizzeriaBL\bin\Debug\net8.0\GrillPizzeriaBL.pdb
+C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\GrillPizzeriaBL\obj\Debug\net8.0\GrillPizzeriaBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\GrillPizzeriaBL\obj\Debug\net8.0\GrillPizzeriaBL.AssemblyInfoInputs.cache
+C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\GrillPizzeriaBL\obj\Debug\net8.0\GrillPizzeriaBL.AssemblyInfo.cs
+C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\GrillPizzeriaBL\obj\Debug\net8.0\GrillPizzeriaBL.csproj.CoreCompileInputs.cache
+C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\GrillPizzeriaBL\obj\Debug\net8.0\GrillPizzeriaBL.sourcelink.json
+C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\GrillPizzeriaBL\obj\Debug\net8.0\GrillPizzeriaBL.dll
+C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\GrillPizzeriaBL\obj\Debug\net8.0\refint\GrillPizzeriaBL.dll
+C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\GrillPizzeriaBL\obj\Debug\net8.0\GrillPizzeriaBL.pdb
+C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\GrillPizzeriaBL\obj\Debug\net8.0\ref\GrillPizzeriaBL.dll
+C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\GrillPizzeriaBL\bin\Debug\net8.0\GrillPizzeriaBL.runtimeconfig.json
+C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\GrillPizzeriaBL\obj\Debug\net8.0\GrillPizzeriaBL.csproj.AssemblyReference.cache
+C:\Users\Cik3000\Desktop\RWAGrillPizzeriaCik\RWAGrillPizzeria\GrillPizzeriaBL\obj\Debug\net8.0\GrillPizzeriaBL.genruntimeconfig.cache

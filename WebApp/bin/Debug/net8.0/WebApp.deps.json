@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "WebApp/1.0.0": {
         "dependencies": {
+          "GrillPizzeriaBL": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
@@ -1933,6 +1934,18 @@
             "fileVersion": "10.5.7.0"
           }
         }
+      },
+      "GrillPizzeriaBL/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
+        },
+        "runtime": {
+          "GrillPizzeriaBL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -3110,6 +3123,11 @@
       "sha512": "sha512-YuQEz9Y2AC8oaYk6yBISRxSpKuUEYLwoDpjimump8O+v4B2vZcigWQ6nEYE9blwmKLV0xGLy0S2zlbicvKCyPg==",
       "path": "x.pagedlist.mvc.core/10.5.7",
       "hashPath": "x.pagedlist.mvc.core.10.5.7.nupkg.sha512"
+    },
+    "GrillPizzeriaBL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

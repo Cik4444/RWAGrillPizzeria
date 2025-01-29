@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using WebApp.Models;
+using GrillPizzeriaBL.Models;
 
 namespace WebApp.ViewModels
 {

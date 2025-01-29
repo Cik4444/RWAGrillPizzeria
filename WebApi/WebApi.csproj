@@ -17,4 +17,8 @@
     <PackageReference Include="X.PagedList" Version="10.5.7" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GrillPizzeriaBL\GrillPizzeriaBL.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrillPizzeriaBL", "GrillPizzeriaBL\GrillPizzeriaBL.csproj", "{BFBBDD64-71FF-47D8-B338-0C5ADC55A47F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFBBDD64-71FF-47D8-B338-0C5ADC55A47F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFBBDD64-71FF-47D8-B338-0C5ADC55A47F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFBBDD64-71FF-47D8-B338-0C5ADC55A47F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFBBDD64-71FF-47D8-B338-0C5ADC55A47F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

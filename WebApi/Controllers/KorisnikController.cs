@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WebApi.Models;
+using GrillPizzeriaBL.Models;
 using WebApi.Dto;
 using Microsoft.EntityFrameworkCore;
 using WebApi.Security;
@@ -28,6 +28,7 @@ namespace WebApi.Controllers
             if (korisnikDto == null)
                 return BadRequest("Invalid data.");
 
+            // Generate new user ID
             int newId = _context.Korisniks.Any()
                 ? _context.Korisniks.Max(k => k.Idkorisnik) + 1
                 : 1;
@@ -40,14 +41,17 @@ namespace WebApi.Controllers
             string salt = PasswordHashProvider.GetSalt();
             string hashedPassword = PasswordHashProvider.GetHash(korisnikDto.Lozinka, salt);
 
-            var userRole = await _context.Roles.FirstOrDefaultAsync(r => r.RoleName == "User");
-            if (userRole == null)
+            bool isFirstUser = !_context.Korisniks.Any();
+
+            var assignedRole = isFirstUser ? "Admin" : "User";
+
+            var role = await _context.Roles.FirstOrDefaultAsync(r => r.RoleName == assignedRole);
+            if (role == null)
             {
-                userRole = new Role { RoleName = "User" };
-                _context.Roles.Add(userRole);
+                role = new Role { RoleName = assignedRole };
+                _context.Roles.Add(role);
                 await _context.SaveChangesAsync();
             }
-
 
             var korisnik = new Korisnik
             {
@@ -57,7 +61,7 @@ namespace WebApi.Controllers
                 Email = korisnikDto.Email,
                 Lozinka = hashedPassword,
                 Salt = salt,
-                RoleId = userRole.RoleId
+                RoleId = role.RoleId
             };
 
             _context.Korisniks.Add(korisnik);
@@ -65,6 +69,7 @@ namespace WebApi.Controllers
 
             return CreatedAtAction(nameof(GetKorisnikById), new { id = korisnik.Idkorisnik }, korisnik);
         }
+
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<KorisnikDto>>> GetAllKorisnik()
@@ -219,11 +224,14 @@ namespace WebApi.Controllers
             string salt = PasswordHashProvider.GetSalt();
             string hashedPassword = PasswordHashProvider.GetHash(registerDto.Lozinka, salt);
 
-            var userRole = await _context.Roles.FirstOrDefaultAsync(r => r.RoleName == "User");
-            if (userRole == null)
+            bool isFirstUser = !_context.Korisniks.Any();
+            string assignedRoleName = isFirstUser ? "Admin" : "User";
+
+            var role = await _context.Roles.FirstOrDefaultAsync(r => r.RoleName == assignedRoleName);
+            if (role == null)
             {
-                userRole = new Role { RoleName = "User" };
-                _context.Roles.Add(userRole);
+                role = new Role { RoleName = assignedRoleName };
+                _context.Roles.Add(role);
                 await _context.SaveChangesAsync();
             }
 
@@ -235,14 +243,15 @@ namespace WebApi.Controllers
                 Email = registerDto.Email,
                 Lozinka = hashedPassword,
                 Salt = salt,
-                RoleId = userRole.RoleId
+                RoleId = role.RoleId 
             };
 
             _context.Korisniks.Add(korisnik);
             await _context.SaveChangesAsync();
 
-            return Ok(new { Message = "Registration successful." });
+            return Ok(new { Message = "Registration successful.", RoleAssigned = assignedRoleName });
         }
+
 
 
         [HttpGet("getSalt")]

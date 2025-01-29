@@ -3,20 +3,128 @@
   "WorkspaceRootPath": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapi\\controllers\\korisnikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\korisnikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\views\\narudzba\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\narudzba\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\views\\narudzba\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\narudzba\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\views\\hrana\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\hrana\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\views\\kategorijahrane\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\kategorijahrane\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\viewmodels\\kategorijahranevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\kategorijahranevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\viewmodels\\hranaalergenvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\hranaalergenvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\viewmodels\\narudzbavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\narudzbavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\viewmodels\\narudzbahranavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\narudzbahranavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\viewmodels\\korisnikvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\korisnikvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\viewmodels\\hranavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\hranavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\viewmodels\\alergenvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\alergenvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\controllers\\narudzbacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\narudzbacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\controllers\\korisnikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\korisnikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\views\\hrana\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\hrana\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\controllers\\kategorijahranecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\kategorijahranecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\views\\hrana\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\hrana\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapi\\controllers\\korisnikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\korisnikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\controllers\\hranacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\hranacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapi\\controllers\\hranacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\hranacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapi\\dto\\narudzbahranadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\narudzbahranadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapi\\dto\\narudzbadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\narudzbadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapi\\dto\\korisnikdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\korisnikdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapi\\dto\\kategorijahranedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\kategorijahranedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapi\\dto\\hranadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\hranadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapi\\dto\\hranaalergendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\hranaalergendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapi\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapi\\dto\\alergendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABEE423C-8719-4DC9-AB81-9599EC5FABF6}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dto\\alergendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFBBDD64-71FF-47D8-B338-0C5ADC55A47F}|GrillPizzeriaBL\\GrillPizzeriaBL.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\grillpizzeriabl\\grillpizzeriabl.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BFBBDD64-71FF-47D8-B338-0C5ADC55A47F}|GrillPizzeriaBL\\GrillPizzeriaBL.csproj|solutionrelative:grillpizzeriabl\\grillpizzeriabl.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\views\\korisnik\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\korisnik\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\views\\hrana\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\hrana\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -31,28 +139,8 @@
       "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\narudzba\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\controllers\\narudzbacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\narudzbacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\viewmodels\\narudzbavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\narudzbavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\viewmodels\\korisnikvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\korisnikvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\views\\narudzba\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\narudzba\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\views\\narudzba\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\narudzba\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|c:\\users\\cik3000\\desktop\\rwagrillpizzeriacik\\rwagrillpizzeria\\webapp\\views\\narudzba\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D19B9CFB-3E0C-40FA-BA32-0619A34A75A9}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\narudzba\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,24 +150,215 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "WebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Program.cs",
+              "RelativeToolTip": "WebApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T14:58:46.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KategorijaHraneVM.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\ViewModels\\KategorijaHraneVM.cs",
+              "RelativeDocumentMoniker": "WebApp\\ViewModels\\KategorijaHraneVM.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\ViewModels\\KategorijaHraneVM.cs",
+              "RelativeToolTip": "WebApp\\ViewModels\\KategorijaHraneVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T14:56:14.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Views\\KategorijaHrane\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\KategorijaHrane\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Views\\KategorijaHrane\\Index.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\KategorijaHrane\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T14:55:55.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NarudzbaHranaVM.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\ViewModels\\NarudzbaHranaVM.cs",
+              "RelativeDocumentMoniker": "WebApp\\ViewModels\\NarudzbaHranaVM.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\ViewModels\\NarudzbaHranaVM.cs",
+              "RelativeToolTip": "WebApp\\ViewModels\\NarudzbaHranaVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T14:55:50.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HranaVM.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\ViewModels\\HranaVM.cs",
+              "RelativeDocumentMoniker": "WebApp\\ViewModels\\HranaVM.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\ViewModels\\HranaVM.cs",
+              "RelativeToolTip": "WebApp\\ViewModels\\HranaVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T14:55:33.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HranaAlergenVM.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\ViewModels\\HranaAlergenVM.cs",
+              "RelativeDocumentMoniker": "WebApp\\ViewModels\\HranaAlergenVM.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\ViewModels\\HranaAlergenVM.cs",
+              "RelativeToolTip": "WebApp\\ViewModels\\HranaAlergenVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T14:55:26.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AlergenVM.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\ViewModels\\AlergenVM.cs",
+              "RelativeDocumentMoniker": "WebApp\\ViewModels\\AlergenVM.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\ViewModels\\AlergenVM.cs",
+              "RelativeToolTip": "WebApp\\ViewModels\\AlergenVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T14:55:18.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "KategorijaHraneController.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Controllers\\KategorijaHraneController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\KategorijaHraneController.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Controllers\\KategorijaHraneController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\KategorijaHraneController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T14:54:43.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HranaController.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Controllers\\HranaController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\HranaController.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Controllers\\HranaController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\HranaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:53:34.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:49:25.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HranaAlergenDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Dto\\HranaAlergenDto.cs",
+              "RelativeDocumentMoniker": "WebApi\\Dto\\HranaAlergenDto.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Dto\\HranaAlergenDto.cs",
+              "RelativeToolTip": "WebApi\\Dto\\HranaAlergenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:45:41.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LogController.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Controllers\\LogController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\LogController.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Controllers\\LogController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\LogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:45:25.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HranaController.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Controllers\\HranaController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\HranaController.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Controllers\\HranaController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\HranaController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAgwHgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:44:59.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AlergenDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Dto\\AlergenDto.cs",
+              "RelativeDocumentMoniker": "WebApi\\Dto\\AlergenDto.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Dto\\AlergenDto.cs",
+              "RelativeToolTip": "WebApi\\Dto\\AlergenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T11:22:36.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GrillPizzeriaBL.csproj.Backup.tmp",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\GrillPizzeriaBL\\GrillPizzeriaBL.csproj.Backup.tmp",
+              "RelativeDocumentMoniker": "GrillPizzeriaBL\\GrillPizzeriaBL.csproj.Backup.tmp",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\GrillPizzeriaBL\\GrillPizzeriaBL.csproj.Backup.tmp",
+              "RelativeToolTip": "GrillPizzeriaBL\\GrillPizzeriaBL.csproj.Backup.tmp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-29T11:21:17.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Views\\Korisnik\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Korisnik\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Views\\Korisnik\\Create.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Korisnik\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T11:07:25.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "KorisnikController.cs",
               "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Controllers\\KorisnikController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\KorisnikController.cs",
               "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Controllers\\KorisnikController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\KorisnikController.cs",
-              "ViewState": "AgIAAKUAAAAAAAAAAAAqwO0AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAANUAAAAAAAAAAAAYwNUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T10:08:40.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T10:08:40.737Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 30,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Views\\Hrana\\Details.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Hrana\\Details.cshtml",
@@ -87,38 +366,108 @@
               "RelativeToolTip": "WebApp\\Views\\Hrana\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-29T09:57:04.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T09:57:04.302Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Views\\Hrana\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Hrana\\Index.cshtml",
               "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Views\\Hrana\\Index.cshtml",
               "RelativeToolTip": "WebApp\\Views\\Hrana\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-29T09:26:03.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T09:26:03.519Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Views\\Narudzba\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Narudzba\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Views\\Narudzba\\Create.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Narudzba\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T19:55:54.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Views\\Narudzba\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Narudzba\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Views\\Narudzba\\Edit.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Narudzba\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T19:56:24.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HranaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Dto\\HranaDto.cs",
+              "RelativeDocumentMoniker": "WebApi\\Dto\\HranaDto.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Dto\\HranaDto.cs",
+              "RelativeToolTip": "WebApi\\Dto\\HranaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:45:48.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "KategorijaHraneDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Dto\\KategorijaHraneDto.cs",
+              "RelativeDocumentMoniker": "WebApi\\Dto\\KategorijaHraneDto.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Dto\\KategorijaHraneDto.cs",
+              "RelativeToolTip": "WebApi\\Dto\\KategorijaHraneDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:45:54.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "KorisnikDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Dto\\KorisnikDto.cs",
+              "RelativeDocumentMoniker": "WebApi\\Dto\\KorisnikDto.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Dto\\KorisnikDto.cs",
+              "RelativeToolTip": "WebApi\\Dto\\KorisnikDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:46:00.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NarudzbaVM.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\ViewModels\\NarudzbaVM.cs",
+              "RelativeDocumentMoniker": "WebApp\\ViewModels\\NarudzbaVM.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\ViewModels\\NarudzbaVM.cs",
+              "RelativeToolTip": "WebApp\\ViewModels\\NarudzbaVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T19:54:43.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "KorisnikController.cs",
               "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Controllers\\KorisnikController.cs",
               "RelativeDocumentMoniker": "WebApp\\Controllers\\KorisnikController.cs",
               "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Controllers\\KorisnikController.cs",
               "RelativeToolTip": "WebApp\\Controllers\\KorisnikController.cs",
-              "ViewState": "AgIAAPgAAAAAAAAAAAAswA8BAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T09:01:15.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T09:01:15.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 31,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\_Layout.cshtml",
@@ -126,8 +475,7 @@
               "RelativeToolTip": "WebApp\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAcAAAAAAAAAAAAQwCEAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-28T20:40:59.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T20:40:59.302Z"
             },
             {
               "$type": "Document",
@@ -137,13 +485,61 @@
               "RelativeDocumentMoniker": "WebApp\\ViewModels\\KorisnikVM.cs",
               "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\ViewModels\\KorisnikVM.cs",
               "RelativeToolTip": "WebApp\\ViewModels\\KorisnikVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T20:24:01.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
+              "Title": "NarudzbaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Dto\\NarudzbaDto.cs",
+              "RelativeDocumentMoniker": "WebApi\\Dto\\NarudzbaDto.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Dto\\NarudzbaDto.cs",
+              "RelativeToolTip": "WebApi\\Dto\\NarudzbaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:46:06.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NarudzbaController.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Controllers\\NarudzbaController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\NarudzbaController.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Controllers\\NarudzbaController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\NarudzbaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T19:55:03.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NarudzbaHranaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Dto\\NarudzbaHranaDto.cs",
+              "RelativeDocumentMoniker": "WebApi\\Dto\\NarudzbaHranaDto.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Dto\\NarudzbaHranaDto.cs",
+              "RelativeToolTip": "WebApi\\Dto\\NarudzbaHranaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:46:13.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:46:18.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Views\\Narudzba\\Delete.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Narudzba\\Delete.cshtml",
@@ -155,43 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Views\\Narudzba\\Edit.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Narudzba\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Views\\Narudzba\\Edit.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Narudzba\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-28T19:56:24.19Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Views\\Narudzba\\Create.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Narudzba\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Views\\Narudzba\\Create.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Narudzba\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-28T19:55:54.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NarudzbaController.cs",
-              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Controllers\\NarudzbaController.cs",
-              "RelativeDocumentMoniker": "WebApp\\Controllers\\NarudzbaController.cs",
-              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Controllers\\NarudzbaController.cs",
-              "RelativeToolTip": "WebApp\\Controllers\\NarudzbaController.cs",
-              "ViewState": "AgIAAKcAAAAAAAAAAAAAwMIAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:55:03.879Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 34,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Views\\Narudzba\\Details.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Narudzba\\Details.cshtml",
@@ -203,19 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NarudzbaVM.cs",
-              "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\ViewModels\\NarudzbaVM.cs",
-              "RelativeDocumentMoniker": "WebApp\\ViewModels\\NarudzbaVM.cs",
-              "ToolTip": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\ViewModels\\NarudzbaVM.cs",
-              "RelativeToolTip": "WebApp\\ViewModels\\NarudzbaVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:54:43.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 32,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\WebApp\\Views\\Narudzba\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Narudzba\\Index.cshtml",

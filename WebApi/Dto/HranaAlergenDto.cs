@@ -1,4 +1,4 @@
-﻿using WebApi.Models;
+﻿using GrillPizzeriaBL.Models;
 
 namespace WebApi.Dto
 {

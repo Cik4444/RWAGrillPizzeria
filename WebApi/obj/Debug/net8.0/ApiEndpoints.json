@@ -114,7 +114,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApi.Models.Korisnik",
+        "Type": "GrillPizzeriaBL.Models.Korisnik",
         "MediaTypes": [
           "text/plain",
           "application/json",

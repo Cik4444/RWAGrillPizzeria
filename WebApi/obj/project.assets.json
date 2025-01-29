@@ -1216,6 +1216,20 @@
         "runtime": {
           "lib/net8.0/X.PagedList.dll": {}
         }
+      },
+      "GrillPizzeriaBL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GrillPizzeriaBL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GrillPizzeriaBL.dll": {}
+        }
       }
     }
   },
@@ -3860,10 +3874,16 @@
         "x.pagedlist.10.5.7.nupkg.sha512",
         "x.pagedlist.nuspec"
       ]
+    },
+    "GrillPizzeriaBL/1.0.0": {
+      "type": "project",
+      "path": "../GrillPizzeriaBL/GrillPizzeriaBL.csproj",
+      "msbuildProject": "../GrillPizzeriaBL/GrillPizzeriaBL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "GrillPizzeriaBL >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
@@ -3902,7 +3922,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\GrillPizzeriaBL\\GrillPizzeriaBL.csproj": {
+              "projectPath": "C:\\Users\\Cik3000\\Desktop\\RWAGrillPizzeriaCik\\RWAGrillPizzeria\\GrillPizzeriaBL\\GrillPizzeriaBL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
